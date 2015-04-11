@@ -1,0 +1,37 @@
+
+<div class="panel panel-default">
+    <!-- Default panel contents -->
+    <div class="panel-heading">Member</div>
+    </div>
+
+    <!-- Table -->
+    <table class="table table-hover">
+        <tr>
+            <th>#</th>
+            <th translate>listMember.first_name</th>
+            <th translate>listMember.last_name</th>
+            <th translate>listMember.email</th>
+            <th translate>listMember.password</th>
+            <th translate>listMember.status</th>
+
+        </tr>
+        <tr ng-repeat="member in members">
+            <td>{{$index+1}}</td>
+            <td>{{member.first_name}}</td>
+            <td>{{member.last_name}}</td>
+            <td>{{member.email}}</td>
+            <td>{{member.password}}</td>
+            <td>{{member.status}}</td>
+        </tr>
+        <!--<tr>-->
+            <!--<th></th>-->
+            <!--<th><strong translate>listProduct.total</strong> </th>-->
+            <!--<th></th>-->
+            <!--<th class="text-right">{{totalNetPrice | number}}</th>-->
+            <!--<th></th>-->
+            <!--<th></th>-->
+            <!--<th></th>-->
+
+        <!--</tr>-->
+    </table>
+</div>
