@@ -1,0 +1,65 @@
+<div class="container-fluid">
+    <div class="row"  ng-controller="listForumController">
+        <div style="height: 400px; background-color: rgb(249,241,231)" class="col-md-12 bg-forum">
+
+            <!--    menu-->
+            <div ng-include src="'template/menu.html'"></div>
+
+            <div class="col-md-1"></div>
+            <!--    content-->
+            <div class="col-md-10" style="padding-top: 8%;    -webkit-font-smoothing: antialiased;">
+                <p style="color:#ffffff;font-weight: bold; font-size: 45px; opacity: 0.8" translate>text.forum</p>
+                <p style="color:#ffffff;font-family: 'Times New Roman'; font-size: 25px; opacity: 0.6" translate>text.anyquestionaskusnow</p>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+
+        <div style="margin-top: 50px;" class="col-md-12"  ng-repeat="forum in forums">
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-8">
+
+                <div class="col-md-12">
+                    <p style="font-size: 25px;">{{forum.title}}</p>
+                    <p style="color: darkgray;">{{forum.detail}}</p>
+                    <p style="font-size: 12px;">{{forum.date}}</p>
+                    <a style="color: #000000" href="" class="btn btn-warning" translate>button.readforum</a>
+                </div>
+                <hr class="col-md-11">
+
+            </div>
+            <div class="col-md-2">
+                <!--<b style="font-size: 25px; color: #808080">Event Category</b>-->
+                <!--<ul style="margin-top: 20px;" class="list-group">-->
+                    <!--<li class="list-group-item">-->
+                        <!--<span class="badge">14</span>-->
+                        <!--<a href="" class="event-category-link">Annual Events</a>-->
+                    <!--</li>-->
+                    <!--<li class="list-group-item">-->
+                        <!--<span class="badge">14</span>-->
+                        <!--<a href="" class="event-category-link">Other Events</a>-->
+                    <!--</li>-->
+                <!--</ul>-->
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+        <div style="padding-top: 20px; padding-bottom: 40px;" class="col-md-12 center">
+            <div class="btn-group" role="group">
+                <button type="button" class="btn btn-default">&laquo;</button>
+                <button type="button" class="btn btn-default">1</button>
+                <button type="button" class="btn btn-default">2</button>
+                <button type="button" class="btn btn-default">3</button>
+                <button type="button" class="btn btn-default">4</button>
+                <button type="button" class="btn btn-default">&raquo;</button>
+            </div>
+        </div>
+
+
+
+
+        <!--row-->
+    </div>
+    <!--container-fluid-->
+</div>
+
+<div ng-include src="'template/footer.html'"></div>

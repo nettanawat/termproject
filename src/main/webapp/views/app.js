@@ -6,6 +6,8 @@ var labApp = angular.module('labApp', [
     'productMainController',
     'memberMainController',
     'eventMainController',
+    'forumMainController',
+    'commentForumMainController',
     'languageController',
     'languageServices',
     'pascalprecht.translate'
@@ -35,6 +37,12 @@ labApp.config(['$routeProvider',
       }).
       when('/filenotfound',{
           templateUrl: 'template/filenotfound.html'
+      }).
+      when('/event',{
+          templateUrl: 'template/event-program-detail.html'
+      }).
+      when('/forums',{
+          templateUrl: 'template/forumList.html'
       }).
        otherwise({redirectTo: '/filenotfound'});
 }]);

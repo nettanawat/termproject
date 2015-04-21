@@ -19,7 +19,8 @@
     <script src="bower_components/angular-resource/angular-resource.js"></script>
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-
+    <script src="bower_components/angular-translate/angular-translate.js"></script>
+    <script src="bower_components/angular-translate-loader-url/angular-translate-loader-url.js"></script>
     <script src="app.js"></script>
     <script src="resources/lightbox-2.6.min.js"></script>
     <script src="resources/jquery-1.10.2.min.js"></script>
@@ -29,9 +30,10 @@
     <script src="js/eventService.js"></script>
     <script src="js/memberController.js"></script>
     <script src="js/memberService.js"></script>
-    <!--add i18n script-->
-    <script src="bower_components/angular-translate/angular-translate.js"></script>
-    <script src="bower_components/angular-translate-loader-url/angular-translate-loader-url.js"></script>
+    <script src="js/forumController.js"></script>
+    <script src="js/forumService.js"></script>
+    <script src="js/commentForumController.js"></script>
+    <script src="js/commentForumService.js"></script>
     <script src="js/languageController.js"></script>
     <script src="js/languageService.js"></script>
     <script src="http://maps.googleapis.com/maps/api/js"></script>

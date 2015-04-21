@@ -34,6 +34,29 @@
     background-size: cover;
 }
 
+
+.bg-forum {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    background-image: url(resources/images/chedi5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-single-event {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    background-image: url(resources/images/chedi5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .bg-filenotfound{
     position: fixed;
     min-width: 100%;
@@ -766,4 +789,11 @@ td p {
 }
 .forget-password:hover{
     color: #808080;
+}
+.red{
+    color: red;
+}
+.event-date{
+    color:#ffffff;
+    font-size: 25px;"
 }
