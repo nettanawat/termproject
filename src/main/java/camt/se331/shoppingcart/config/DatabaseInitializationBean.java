@@ -60,16 +60,25 @@ public class DatabaseInitializationBean implements InitializingBean {
         eventRepository.save(Arrays.asList(iniEvent));
 
 
-        CommentForum[] initCommentForums = {
-                new CommentForum(1l, "Wow, that's really cool", 1l, cal.getTime(), 1),
-                new CommentForum(2l, "Hey, that's really cool", 2l, cal.getTime(), 1),
-                new CommentForum(3l, "Huh, that's really cool", 3l, cal.getTime(), 1),
-                new CommentForum(4l, "Whattttt, that's really cool", 4l, cal.getTime(), 1)
+        CommentForum[] initCommentForums1 = {
+                new CommentForum(1l, "Wat Chedi Luang is on Prapokklao Road which runs roughly through the north-south center line of the old city, from Changpuak Gate to Chaing Mai Gate. The temple is just a short walk south of the intersection with the main east-west Ratchadamnoen Road.", initMember[0], cal.getTime(), 1),
+                new CommentForum(2l, "Round whitewashed columns support", initMember[1], cal.getTime(), 1),
+                new CommentForum(3l, "Huh, that's really cool", initMember[2], cal.getTime(), 1),
+                new CommentForum(4l, "Whattttt, that's really cool", initMember[3], cal.getTime(), 1)
         };
-        commentForumRepository.save(Arrays.asList(initCommentForums));
+
+        CommentForum[] initCommentForums2 = {
+                new CommentForum(5l, "Wat Chedi Luang is on Prapokklao Road which runs roughly through the north-south center line of the old city, from Changpuak Gate to Chaing Mai Gate. The temple is just a short walk south of the intersection with the main east-west Ratchadamnoen Road.", initMember[0], cal.getTime(), 1),
+                new CommentForum(6l, "Round whitewashed columns support", initMember[1], cal.getTime(), 1),
+                new CommentForum(7l, "Huh, that's really cool", initMember[2], cal.getTime(), 1),
+                new CommentForum(8l, "Whattttt, that's really cool", initMember[3], cal.getTime(), 1)
+        };
 
         List<CommentForum> commentForumList = new ArrayList<>();
-        commentForumList.addAll(Arrays.asList(initCommentForums));
+        commentForumList.addAll(Arrays.asList(initCommentForums1));
+        commentForumList.addAll(Arrays.asList(initCommentForums2));
+
+        commentForumRepository.save(commentForumList);
 
 //        Forum[] initForum ={
 //                new Forum(1l,"Where is Wat Chedi Luang?", "I want to know the exact location od this place", 1l, cal.getTime(),1),
@@ -77,16 +86,30 @@ public class DatabaseInitializationBean implements InitializingBean {
 //                new Forum(3l,"Is this temple is the main temple of Chiang Mai?", "I going to write an academic essay about temple in Chiang Mai and I interested in Wat Chedi Luang. I want to know the information about this temple. Thank you", 3l, cal.getTime(),1),
 //                new Forum(4l,"Any tourist attraction near Wat Chedi Luang?", "I will go there next week but I don't know the place that I can visit after Wat Chedi Luang. Can someone recommend me the place?", 4l, cal.getTime(),1),
 //        };
-        Forum forum = new Forum();
-//        initForum[0].setCommentForumList(commentForumList[0]);
-        forum.setId(1l);
-        forum.setDetail("sssssss");
-        forum.setDate(cal.getTime());
-        forum.setCommentForumList(commentForumList);
-        forum.setPostBy(2l);
-        forum.setTitle("Heusadasd");
-        forum.setStatus(1);
-        forumRepository.save(forum);
+        Forum forum1 = new Forum();
+        forum1.setId(1l);
+        forum1.setDetail("I want to know the exact location of this place");
+        forum1.setDate(cal.getTime());
+        forum1.setCommentForumList(Arrays.asList(initCommentForums1));
+        forum1.setPostBy(initMember[0]);
+        forum1.setTitle("Where is Wat Chedi Luang?");
+        forum1.setStatus(1);
+//        forumRepository.save(forum1);
 
+
+        Forum forum2 = new Forum();
+        forum2.setId(2l);
+        forum2.setDetail("I going to write an academic essay about temple in Chiang Mai and I interested in Wat Chedi Luang. I want to know the information about this temple. Thank you");
+        forum2.setDate(cal.getTime());
+        forum2.setCommentForumList(Arrays.asList(initCommentForums2));
+        forum2.setPostBy(initMember[1]);
+        forum2.setTitle("Is this temple is the main temple of Chiang Mai?");
+        forum2.setStatus(1);
+//        forumRepository.save(forum2);
+
+        ArrayList<Forum> forums = new ArrayList<Forum>();
+        forums.add(forum1);
+        forums.add(forum2);
+        forumRepository.save(forums);
     }
 }

@@ -27,4 +27,9 @@ public class DbForumDao implements ForumDao {
     public List<Forum> getForumByStatus(int status) {
         return null;
     }
+
+    @Override
+    public Forum getForumById(Long id) {
+        return forumRepository.findOne(id);
+    }
 }

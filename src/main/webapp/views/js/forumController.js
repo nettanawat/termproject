@@ -28,3 +28,11 @@ forumMainController.controller('listForumController', ['$scope', '$http', '$root
         }
 
     }]);
+
+forumMainController.controller('aForumController', ['$scope', '$http','$routeParams', '$rootScope','$route',
+    function ($scope, $http,$routeParams, $rootScope,forumService,$route) {
+        var id = $routeParams.id;
+        $http.get("/forum/forumById/" + id).success(function (data) {
+            $scope.forum = data;
+        });
+    }]);

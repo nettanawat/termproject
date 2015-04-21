@@ -34,6 +34,17 @@
     background-size: cover;
 }
 
+.bg-single-forum {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    background-image: url(resources/images/single-forum.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 .bg-forum {
     position: absolute;
@@ -796,4 +807,29 @@ td p {
 .event-date{
     color:#ffffff;
     font-size: 25px;"
+}
+.forum-title{
+    background-color: rgba(255,255,255,0.6);
+    margin-top: 15px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.most-joined-event{
+    background-color: rgb(249,241,231);
+    margin-top: 50px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.most-joined-event-title{
+    -webkit-font-smoothing: antialiased;
+    font-family: Helvetica;
+    color: rgb(55,55,55);
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 10px;
 }

@@ -10,4 +10,5 @@ import java.util.List;
 public interface ForumDao {
     List<Forum> getAllForum();
     List<Forum> getForumByStatus(int status);
+    Forum getForumById(Long id);
 }

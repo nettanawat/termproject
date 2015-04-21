@@ -14,35 +14,30 @@
             <div class="col-md-1"></div>
         </div>
 
-        <div style="margin-top: 50px;" class="col-md-12"  ng-repeat="forum in forums">
-            <div class="col-md-1">
-            </div>
-            <div class="col-md-8">
-
-                <div class="col-md-12">
+        <div class="row">
+        <!--padding left -->
+        <div class="col-md-1"></div>
+        <div style="margin-top: 50px;" class="col-md-8">
+            <div class="col-md-12"  ng-repeat="forum in forums">
+                <div class="col-md-2">
+                    <img src="../resources/images/user-no-image.png" class="col-md-12">
+                </div>
+                <div class="col-md-10">
                     <p style="font-size: 25px;">{{forum.title}}</p>
                     <p style="color: darkgray;">{{forum.detail}}</p>
-                    <p style="font-size: 12px;">{{forum.date}}</p>
-                    <a style="color: #000000" href="" class="btn btn-warning" translate>button.readforum</a>
+                    <p style="font-size: 12px;">{{forum.formatDate}}</p>
+                    <a style="color: #000000" ng-href="#/forum/{{forum.id}}" class="btn btn-warning" translate>button.readforum</a>
                 </div>
                 <hr class="col-md-11">
-
             </div>
-            <div class="col-md-2">
-                <!--<b style="font-size: 25px; color: #808080">Event Category</b>-->
-                <!--<ul style="margin-top: 20px;" class="list-group">-->
-                    <!--<li class="list-group-item">-->
-                        <!--<span class="badge">14</span>-->
-                        <!--<a href="" class="event-category-link">Annual Events</a>-->
-                    <!--</li>-->
-                    <!--<li class="list-group-item">-->
-                        <!--<span class="badge">14</span>-->
-                        <!--<a href="" class="event-category-link">Other Events</a>-->
-                    <!--</li>-->
-                <!--</ul>-->
-            </div>
-            <div class="col-md-1"></div>
         </div>
+        <div class="col-md-2 center most-joined-event">
+            <p class="most-joined-event-title">MOST JOINED EVENTS</p>
+        </div>
+        <!--padding right-->
+        <div class="col-md-1"></div>
+        </div>
+
         <div style="padding-top: 20px; padding-bottom: 40px;" class="col-md-12 center">
             <div class="btn-group" role="group">
                 <button type="button" class="btn btn-default">&laquo;</button>
@@ -53,9 +48,6 @@
                 <button type="button" class="btn btn-default">&raquo;</button>
             </div>
         </div>
-
-
-
 
         <!--row-->
     </div>

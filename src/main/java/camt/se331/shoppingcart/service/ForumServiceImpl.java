@@ -25,4 +25,11 @@ public class ForumServiceImpl implements ForumService {
     public List<Forum> getForumByStatus(int status) {
         return forumDao.getForumByStatus(status);
     }
+
+    @Override
+    public Forum getForumById(Long id) {
+        return forumDao.getForumById(id);
+    }
+
+
 }

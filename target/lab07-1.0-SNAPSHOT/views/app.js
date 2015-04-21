@@ -44,6 +44,9 @@ labApp.config(['$routeProvider',
       when('/forums',{
           templateUrl: 'template/forumList.html'
       }).
+      when('/forum/:id',{
+          templateUrl: 'template/forum.html'
+      }).
        otherwise({redirectTo: '/filenotfound'});
 }]);
 

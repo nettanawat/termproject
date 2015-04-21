@@ -13,7 +13,8 @@ public class CommentForum {
     @GeneratedValue
     private Long id;
     private String detail;
-    private Long commentBy;
+    @ManyToOne
+    private Member commentBy;
     @Temporal(TemporalType.TIMESTAMP)
     private Date date;
     private int status;
@@ -21,7 +22,7 @@ public class CommentForum {
     public CommentForum() {
     }
 
-    public CommentForum(Long id,String detail, Long commentBy, Date date, int status) {
+    public CommentForum(Long id,String detail, Member commentBy, Date date, int status) {
         this.id = id;
         this.detail = detail;
         this.commentBy = commentBy;
@@ -45,11 +46,11 @@ public class CommentForum {
         this.detail = detail;
     }
 
-    public Long getCommentBy() {
+    public Member getCommentBy() {
         return commentBy;
     }
 
-    public void setCommentBy(Long commentBy) {
+    public void setCommentBy(Member commentBy) {
         this.commentBy = commentBy;
     }
 

@@ -3,6 +3,7 @@ package camt.se331.shoppingcart.entity;
 import org.hibernate.annotations.Cascade;
 
 import javax.persistence.*;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
@@ -16,7 +17,8 @@ public class Forum {
     Long id;
     String title;
     String detail;
-    Long postBy;
+    @ManyToOne
+    Member postBy;
     @OneToMany(fetch = FetchType.EAGER)
     @Cascade(org.hibernate.annotations.CascadeType.ALL)
     List<CommentForum> commentForumList;
@@ -27,7 +29,7 @@ public class Forum {
     public Forum() {
     }
 
-    public Forum(Long id, String title, String detail, Long postBy/*, List<CommentForum> commentForumList*/, Date date, int status) {
+    public Forum(Long id, String title, String detail, Member postBy/*, List<CommentForum> commentForumList*/, Date date, int status) {
         this.id=id;
         this.title = title;
         this.detail = detail;
@@ -61,11 +63,11 @@ public class Forum {
         this.detail = detail;
     }
 
-    public Long getPostBy() {
+    public Member getPostBy() {
         return postBy;
     }
 
-    public void setPostBy(Long postBy) {
+    public void setPostBy(Member postBy) {
         this.postBy = postBy;
     }
 
@@ -91,5 +93,10 @@ public class Forum {
 
     public void setStatus(int status) {
         this.status = status;
+    }
+
+    public String getFormatDate(){
+        SimpleDateFormat dt1 = new SimpleDateFormat("EEE, MMM d yyyy");
+        return dt1.format(getDate());
     }
 }
