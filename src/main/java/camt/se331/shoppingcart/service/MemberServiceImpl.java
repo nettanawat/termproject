@@ -22,13 +22,13 @@ public class MemberServiceImpl implements MemberService {
     }
 
     @Override
-    public List<Member> getMemberByStatus(int status) {
+    public List<Member> getMemberByStatus(boolean status) {
         return null;
     }
 
     @Override
     public Member getMember(Long id) {
-        return null;
+        return memberDao.getMember(id);
     }
 
     @Override
@@ -38,11 +38,16 @@ public class MemberServiceImpl implements MemberService {
 
     @Override
     public Member updateMember(Member member) {
-        return null;
+        return memberDao.updateMember(member);
     }
 
     @Override
     public Member deleteMember(int memberId) {
         return null;
+    }
+
+    @Override
+    public List<Member> getLastFiveJoinedMember() {
+        return memberDao.getLastFiveJoinedMember();
     }
 }

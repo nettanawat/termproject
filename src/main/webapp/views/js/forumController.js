@@ -8,7 +8,14 @@ forumMainController.controller('listForumController', ['$scope', '$http', '$root
         $http.get("/forum/allforum").success(function (data) {
         //var data = forumService.query(function(){
             $scope.forums = data;
+            $scope.totalForum = data.length;
         });
+
+        $http.get("/forum/lasttwoforum").success(function (data) {
+            //var data = forumService.query(function(){
+            $scope.lastTwoForum = data;
+        });
+
 
 
         $scope.$on('$locationChangeStart', function (event) {

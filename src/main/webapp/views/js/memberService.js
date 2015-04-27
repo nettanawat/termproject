@@ -2,7 +2,7 @@
 var memberService = angular.module('memberServices',['ngResource']);
 
 memberService.factory('memberService',function($resource){
-    return $resource('/member/:id', { id: '@_id' }, {
+    return $resource('/member/editmember/:id', { id: '@_id' }, {
         update: {
             method: 'PUT' // this method issues a PUT request
         }});

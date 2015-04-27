@@ -1,0 +1,33 @@
+<div ng-include src="'template/admin-menu.html'"></div>
+<div style="margin-top: 80px;" class="container-fluid">
+    <!-- Table -->
+    <div style="margin-bottom: 20px;" class="col-md-7">
+        <h2>Events</h2>
+    </div>
+    <div class="col-md-4">
+        <input placeholder="search" class="form-control" ng-model="searchEvent">
+    </div><a href="#/admin/addmember" class="btn btn-default col-md-1" translate>a.addmember</a>
+    <table class="table table-hover col-md-12">
+        <tr>
+            <th class="col-md-1">#</th>
+            <th class="col-md-1" translate>listEvent.name</th>
+            <th class="col-md-3" translate>listEvent.description</th>
+            <th class="col-md-2" translate>listEvent.date</th>
+            <th class="col-md-3" translate>listEvent.image</th>
+            <th class="col-md-1" translate>listEvent.status</th>
+            <th class="col-md-1" translate>listEvent.action</th>
+        </tr>
+        <tr ng-repeat="event in events | filter:searchEvent">
+            <td class="col-md-1">{{$index+1}}</td>
+            <td class="col-md-1"><a ng-href="#/event/{{event.id}}" target="_blank">{{event.name}}</a></td>
+            <td class="col-md-3">{{event.description | limitTo:200}}...</td>
+            <td class="col-md-2">{{event.formatDate}}</td>
+            <td class="col-md-3"><img width="100%"  src="../{{event.imagePath}}"></td>
+            <td class="col-md-1">{{event.status}}</td>
+            <td class="col-md-1">
+                <a ng-href="#/admin/editevent/{{event.id}}"> <span class="glyphicon glyphicon-edit" aria-hidden="true"></span></a>
+                <a ng-href="#/admin/listevent"><span class="glyphicon glyphicon-remove-circle" aria-hidden="true" ng-click="deleteEvent(event.id)"></span></a>
+            </td>
+        </tr>
+    </table>
+</div>

@@ -1,0 +1,39 @@
+<div ng-include src="'template/admin-menu.html'"></div>
+<div style="margin-top: 80px;" class="container-fluid">
+    <div class="jumbotron">
+        <div class="row">
+            <div class="row" ng-show="addEvent">
+                <h2>Add new member</h2>
+            </div>
+            <div class="row" ng-show="editEvent">
+                <h2>Edit member</h2>
+            </div>
+
+            <form class="col-md-12" name="eventForm">
+
+                <div class="form-group col-md-6">
+                    <label>Name</label>
+                    <input type="text" ng-model="event.name" class="form-control" id="eventName" name="eventName" placeholder="Event name" required>
+                </div>
+                <div class="form-group col-md-6">
+                    <label>Date</label>
+                    <input type="date" ng-model="event.date" class="form-control" id="eventDate" name="eventDate" required>
+                </div>
+                <div class="form-group col-md-12">
+                    <label>Description</label>
+                    <textarea rows="10" ng-model="event.description" class="form-control" id="eventDescription" name="eventDescription" placeholder="Event description" required> </textarea>
+                </div>
+                <div class="form-group col-md-12">
+                    <label>Image</label>
+                    <img src="../{{event.imagePath}}" width="100%">
+                    <!--<input type="text" class="form-control" id="memberPassword" name="memberPassword" placeholder="Member password" required>-->
+                </div>
+                <div class="col-md-12">
+                <button type="submit" class="btn btn-default" ng-click="addEvent()" ng-show="addEvent">Add</button>
+                <button type="submit" class="btn btn-default" ng-click="editAnEvent()" ng-show="editEvent">Edit</button>
+                </div>
+            </form>
+
+        </div>
+    </div> <!-- row-->
+</div> <!-- container-->

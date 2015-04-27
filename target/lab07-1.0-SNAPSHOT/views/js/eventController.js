@@ -22,9 +22,20 @@ productMainController.controller('addProductController', ['$scope', '$http', '$l
 
 eventMainController.controller('listEventController', ['$scope', '$http', '$rootScope','eventService','$route','totalCalService',
     function ($scope, $http, $rootScope,eventService,$route,totalCalService) {
-        //$http.get("/product/").success(function (data) {
-        var data = eventService.query(function(){
+        $http.get("/event/allevents").success(function (data) {
+        //var data = eventService.query(function(){
             $scope.events = data;
+            $scope.totalEvent = data.length;
+        });
+
+        $http.get("/event/randomthreeevents").success(function (data) {
+            //var data = eventService.query(function(){
+            $scope.randomThreeEvents = data;
+        });
+
+        $http.get("/event/upcomingevent").success(function (data) {
+            //var data = eventService.query(function(){
+            $scope.upcomingevent = data;
         });
 
 
@@ -46,20 +57,29 @@ eventMainController.controller('listEventController', ['$scope', '$http', '$root
 
     }]);
 
-productMainController.controller('editProductController', ['$scope', '$http', '$routeParams', '$location', '$rootScope','productService',
-    function ($scope, $http, $routeParams, $location, $rootScope,productService) {
-        $scope.addPerson = false;
-        $scope.editPerson = true;
+eventMainController.controller('editEventController', ['$scope', '$http', '$routeParams', '$location', '$rootScope',
+    function ($scope, $http, $routeParams, $location, $rootScope) {
+        $scope.addEvent = false;
+        $scope.editEvent = true;
         var id = $routeParams.id;
-        $http.get("/product/" + id).success(function (data) {
-            $scope.product = data;
+        $http.get("/event/eventbyid/" + id).success(function (data) {
+            $scope.event = data;
         });
 
-        $scope.editProduct = function () {
-            //$http.put("/product", $scope.product).then(function () {
-            productService.update({id:$scope.product.id},$scope.product,function(){
+        $scope.editAnEvent = function () {
+            $http.put("/event/editevent/" +id, $scope.event).then(function () {
+                //memberService.update({id:$scope.member.id},$scope.member,function(){
                 $rootScope.editSuccess = true;
-                $location.path("listProduct");
+                $location.path("/admin/listevent");
             });
         }
     }]);
+
+eventMainController.controller('singleEventController', ['$scope', '$http','$routeParams',
+    function ($scope, $http,$routeParams) {
+        var id = $routeParams.id;
+        $http.get("/event/eventbyid/" + id).success(function (data) {
+            $scope.event = data;
+        });
+    }]);
+

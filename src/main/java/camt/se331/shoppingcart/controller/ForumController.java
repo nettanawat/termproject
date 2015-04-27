@@ -21,12 +21,17 @@ public class ForumController {
     ForumService forumService;
 
     @RequestMapping(value = "/allforum",method = RequestMethod.GET)
-    public List<Forum> list(){
+    public List<Forum> getAllForum(){
         return forumService.getAllForum();
     }
 
     @RequestMapping(value = "/forumById/{id}",method = RequestMethod.GET)
-    public  Forum getForum(@PathVariable("id") Long id){
+    public  Forum getForumById(@PathVariable("id") Long id){
         return forumService.getForumById(id);
+    }
+
+    @RequestMapping(value = "/lasttwoforum",method = RequestMethod.GET)
+    public  List<Forum> getLastTwoForum(){
+        return forumService.getLastTwoForum();
     }
 }

@@ -26,10 +26,10 @@ public class DbMemberDao implements MemberDao {
     }
 
     @Override
-    public List<Member> getMemberByStatus(int status) {
+    public List<Member> getMemberByStatus(boolean status) {
         List<Member> members = new ArrayList<Member>();
         for(Member member : getAllMember()){
-            if(member.getStatus() == status){
+            if(member.isStatus() == status){
                 members.add(member);
             }
         }
@@ -59,5 +59,10 @@ public class DbMemberDao implements MemberDao {
     @Override
     public Member getMemberByEmailAndPassword(String email, String password) {
         return null;
+    }
+
+    @Override
+    public List<Member> getLastFiveJoinedMember() {
+        return memberRepository.findTop5ByOrderByJoinDateDesc();
     }
 }

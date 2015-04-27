@@ -14,4 +14,6 @@ public interface EventService {
     Event addEvent(Event event);
     Event updateEvent(Event event);
     Event deleteEvent(int memberId);
+    List<Event> getRandomThreeEvents();
+    Event getEventByNearestDate();
 }

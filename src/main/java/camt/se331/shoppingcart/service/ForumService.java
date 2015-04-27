@@ -11,4 +11,5 @@ public interface ForumService {
     List<Forum> getAllForum();
     List<Forum> getForumByStatus(int status);
     Forum getForumById(Long id);
+    List<Forum> getLastTwoForum();
 }

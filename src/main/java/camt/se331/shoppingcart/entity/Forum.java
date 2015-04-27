@@ -29,12 +29,12 @@ public class Forum {
     public Forum() {
     }
 
-    public Forum(Long id, String title, String detail, Member postBy/*, List<CommentForum> commentForumList*/, Date date, int status) {
+    public Forum(Long id, String title, String detail, Member postBy, List<CommentForum> commentForumList, Date date, int status) {
         this.id=id;
         this.title = title;
         this.detail = detail;
         this.postBy = postBy;
-//        this.commentForumList = commentForumList;
+        this.commentForumList = commentForumList;
         this.date = date;
         this.status = status;
     }

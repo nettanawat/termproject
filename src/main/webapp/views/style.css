@@ -831,5 +831,10 @@ td p {
     color: rgb(55,55,55);
     font-weight: bold;
     font-size: 18px;
-    padding-top: 10px;
+    padding-top: 15px;
+}
+
+.stick-to-top{
+    margin-top: -10px;
+    padding-bottom: 10px;
 }

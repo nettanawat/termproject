@@ -30,7 +30,10 @@ labApp.config(['$routeProvider',
           templateUrl: 'template/login.html'
       }).
       when('/events',{
-          templateUrl: 'template/events-programs.html'
+          templateUrl: 'template/eventList.html'
+      }).
+      when('/event/:id',{
+          templateUrl: 'template/event.html'
       }).
       when('/',{
           templateUrl: 'template/index.html'
@@ -38,14 +41,37 @@ labApp.config(['$routeProvider',
       when('/filenotfound',{
           templateUrl: 'template/filenotfound.html'
       }).
-      when('/event',{
-          templateUrl: 'template/event-program-detail.html'
-      }).
       when('/forums',{
           templateUrl: 'template/forumList.html'
       }).
       when('/forum/:id',{
           templateUrl: 'template/forum.html'
+      }).
+      when('/admin/dashboard',{
+          templateUrl: 'template/admin-dashboard.html'
+      }).
+      when('/admin/listmember',{
+          templateUrl: 'template/admin-memberList.html'
+      }).
+      when('/admin/addmember',{
+          templateUrl: 'template/admin-addMember.html',
+          controller: 'addMemberController'
+      }).
+      when('/admin/editmember/:id',{
+          templateUrl: 'template/admin-addMember.html',
+          controller: 'editMemberController'
+      }).
+      when('/admin/listevent',{
+          templateUrl: 'template/admin-eventList.html',
+          controller: 'listEventController'
+      }).
+      when('/admin/addevent',{
+          templateUrl: 'template/admin-addEvent.html',
+          controller: 'addEventController'
+      }).
+      when('/admin/editevent/:id',{
+          templateUrl: 'template/admin-addEvent.html',
+          controller: 'editEventController'
       }).
        otherwise({redirectTo: '/filenotfound'});
 }]);

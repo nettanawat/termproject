@@ -28,7 +28,7 @@ public class EventServiceImpl implements EventService {
 
     @Override
     public Event getEvent(Long id) {
-        return null;
+        return eventDao.getEvent(id);
     }
 
     @Override
@@ -38,11 +38,21 @@ public class EventServiceImpl implements EventService {
 
     @Override
     public Event updateEvent(Event event) {
-        return null;
+        return eventDao.updateEvent(event);
     }
 
     @Override
     public Event deleteEvent(int memberId) {
         return null;
+    }
+
+    @Override
+    public List<Event> getRandomThreeEvents() {
+        return eventDao.getRandomThreeEvents();
+    }
+
+    @Override
+    public Event getEventByNearestDate() {
+        return eventDao.getEventByNearestDate();
     }
 }

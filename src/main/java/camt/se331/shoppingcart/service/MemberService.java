@@ -9,9 +9,10 @@ import java.util.List;
  */
 public interface MemberService {
     List<Member> getAllMember();
-    List<Member> getMemberByStatus(int status);
+    List<Member> getMemberByStatus(boolean status);
     Member getMember(Long id);
     Member addMember(Member member);
     Member updateMember(Member member);
     Member deleteMember(int memberId);
+    List<Member> getLastFiveJoinedMember();
 }

@@ -31,5 +31,10 @@ public class ForumServiceImpl implements ForumService {
         return forumDao.getForumById(id);
     }
 
+    @Override
+    public List<Forum> getLastTwoForum() {
+        return forumDao.getLastTwoForum();
+    }
+
 
 }

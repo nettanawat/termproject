@@ -1,0 +1,145 @@
+<!--    menu-->
+<div ng-include src="'template/admin-menu.html'"></div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12 padding3">
+            <div class="col-md-6 col-sm-6" ng-controller="listMemberController">
+                <h3>5 Newest members</h3>
+                <table class="table table-striped">
+                    <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Phone number</th>
+                        <th>Join date</th>
+                    </tr>
+                    <tr ng-repeat="member in lastfivemembers">
+                        <td>{{$index+1}}</td>
+                        <td>{{member.firstName}} {{member.lastName}}</td>
+                        <td>{{member.email}}</td>
+                        <td>{{member.phoneNumber}}</td>
+                        <td>{{member.formatDate}}</td>
+                    </tr>
+                </table>
+                <a ng-href="" role="button">View all →</a>
+            </div>
+
+            <div class="col-md-6 col-sm-6">
+                <h3>5 Most joined events</h3>
+                <table class="table table-striped">
+                    <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Location</th>
+                        <th>Date</th>
+                        <th>No. participant</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Songkarn festival</td>
+                        <td>Chiang Mai</td>
+                        <td>Apr 24, 2015</td>
+                        <td>50</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Loy kra tong festival</td>
+                        <td>Chiang Mai</td>
+                        <td>Apr 24, 2015</td>
+                        <td>43</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Sleep festival</td>
+                        <td>Chiang Mai</td>
+                        <td>Apr 24, 2015</td>
+                        <td>29</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Making merit</td>
+                        <td>Chiang Mai</td>
+                        <td>Apr 24, 2015</td>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Walking street</td>
+                        <td>Chiang Mai</td>
+                        <td>Apr 24, 2015</td>
+                        <td>19</td>
+                    </tr>
+                </table>
+                <a ng-href="" role="button">View all →</a>
+            </div>
+
+
+            <div class="col-md-6 col-sm-6">
+                <h3>5 Most commented forums</h3>
+                <table class="table table-striped">
+                    <tr>
+                        <th>#</th>
+                        <th>Topic</th>
+                        <th>Post by</th>
+                        <th>Date</th>
+                        <th>No. comments</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>What is it?</td>
+                        <td>Chiang Mai</td>
+                        <td>Apr 24, 2015</td>
+                        <td>50</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Loy kra tong festival</td>
+                        <td>Chiang Mai</td>
+                        <td>Apr 24, 2015</td>
+                        <td>43</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>I love you city</td>
+                        <td>Chiang Mai</td>
+                        <td>Apr 24, 2015</td>
+                        <td>29</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Making merit</td>
+                        <td>Chiang Mai</td>
+                        <td>Apr 24, 2015</td>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Help us please!</td>
+                        <td>Chiang Mai</td>
+                        <td>Apr 24, 2015</td>
+                        <td>19</td>
+                    </tr>
+                </table>
+                <a ng-href="" role="button">View all →</a>
+            </div>
+
+            <div class="col-md-6 col-sm-6">
+                <h3>Overview</h3>
+                <table class="table table-striped">
+                    <tr ng-controller="listMemberController">
+                        <td>Total member :: {{totalMember}}</td>
+                        <td>activate = 69, deactivate = 20</td>
+                    </tr>
+                    <tr ng-controller="listEventController">
+                        <td>Total event: {{totalEvent}}</td>
+                        <td>upcoming = 16, past = 16</td>
+                    </tr>
+                    <tr ng-controller="listForumController">
+                        <td>Total forum: {{totalForum}}</td>
+                        <td>activate = 18, deactivate = 1</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

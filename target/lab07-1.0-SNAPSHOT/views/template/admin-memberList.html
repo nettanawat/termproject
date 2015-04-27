@@ -1,0 +1,33 @@
+<div ng-include src="'template/admin-menu.html'"></div>
+<div style="margin-top: 80px;" class="container-fluid">
+    <!-- Table -->
+    <div style="margin-bottom: 20px;" class="col-md-7">
+        <h2>Members</h2>
+    </div>
+    <div class="col-md-4">
+        <input placeholder="search" class="form-control" ng-model="searchMember">
+        </div><a href="#/admin/addmember" class="btn btn-default col-md-1" translate>a.addmember</a>
+    <table class="table table-hover" ng-controller="listMemberController">
+        <tr>
+            <th>#</th>
+            <th translate>listMember.firstname</th>
+            <th translate>listMember.lastname</th>
+            <th translate>listMember.email</th>
+            <th translate>listMember.phonenumber</th>
+            <th translate>listMember.status</th>
+            <th translate>listMember.status</th>
+        </tr>
+        <tr ng-repeat="member in members | filter:searchMember">
+            <td>{{$index+1}}</td>
+            <td>{{member.firstName}}</td>
+            <td>{{member.lastName}}</td>
+            <td>{{member.email}}</td>
+            <td>{{member.phoneNumber}}</td>
+            <td>{{member.status}}</td>
+            <td>
+                <a ng-href="#/admin/editmember/{{member.id}}"> <span class="glyphicon glyphicon-edit" aria-hidden="true"></span></a>
+                <a ng-href="#/listProduct"><span class="glyphicon glyphicon-remove-circle" aria-hidden="true" ng-click="deleteMember(member.id)"></span></a>
+            </td>
+        </tr>
+    </table>
+</div>
