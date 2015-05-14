@@ -61,6 +61,10 @@ labApp.config(['$routeProvider',
           templateUrl: 'template/admin-addMember.html',
           controller: 'editMemberController'
       }).
+      when('/admin/viewmember/:id',{
+          templateUrl: 'template/admin-viewMember.html',
+          controller: 'editMemberController'
+      }).
       when('/admin/listevent',{
           templateUrl: 'template/admin-eventList.html',
           controller: 'listEventController'

@@ -1,0 +1,42 @@
+<div ng-include src="'template/admin-menu.html'"></div>
+<div style="margin-top: 80px;" class="container-fluid">
+    <div class="jumbotron">
+        <div class="row">
+            <div class="row" ng-show="addMember">
+                <h2>Add new member</h2>
+            </div>
+            <div class="row" ng-show="editMember">
+                <h2>Edit member</h2>
+            </div>
+
+            <form class="col-md-12" name="memberForm">
+                <div class="form-group col-md-6">
+                    <label>First name</label>
+                    <input type="text" readonly ng-model="member.firstName" class="form-control" id="memberFirstName" name="memberFirstName" placeholder="Member first name" required>
+                </div>
+                <div class="form-group col-md-6">
+                    <label>Last name</label>
+                    <input type="text" readonly ng-model="member.lastName" class="form-control" id="memberLastName" name="memberLastName" placeholder="Member last name" required>
+                </div>
+                <div class="form-group col-md-6">
+                    <label>Email</label>
+                    <input type="text" readonly ng-model="member.email" class="form-control" id="memberEmail" name="memberEmail" placeholder="Member email" required>
+                </div>
+                <div class="form-group col-md-6">
+                    <label>Password</label>
+                    <input type="password" readonly ng-model="member.password" class="form-control" id="memberPassword" name="memberPassword" placeholder="Member password" required>
+                </div>
+                <div class="form-group col-md-6">
+                    <label>Confirm password</label>
+                    <input type="password" readonly ng-model="member.password" class="form-control" id="memberConfirmPassword" name="memberConfirmPassword" placeholder="Member confirm password" required>
+                </div>
+                <div class="form-group col-md-6">
+                    <label>Phone number</label>
+                    <input type="text" readonly ng-model="member.phoneNumber" class="form-control" id="memberPhoneNumber" name="memberPhoneNumber" placeholder="Member phone number" required>
+                </div>
+                <a class="btn btn-default" href="#/admin/listmember">Back</a>
+            </form>
+
+        </div>
+    </div> <!-- row-->
+</div> <!-- container-->

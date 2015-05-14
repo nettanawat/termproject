@@ -19,8 +19,8 @@
         </tr>
         <tr ng-repeat="member in members | filter:searchMember">
             <td>{{$index+1}}</td>
-            <td>{{member.firstName}}</td>
-            <td>{{member.lastName}}</td>
+            <td><a ng-href="#/admin/viewmember/{{member.id}}">{{member.firstName}}</a></td>
+            <td><a ng-href="#/admin/viewmember/{{member.id}}">{{member.lastName}}</a></td>
             <td>{{member.email}}</td>
             <td>{{member.phoneNumber}}</td>
             <td>{{member.status}}</td>
