@@ -79,7 +79,7 @@
   width: 32px;
   height: 32px;
   margin: 0 auto;
-  background: url(../img/loading.gif) no-repeat;
+  /*background: url(../img/loading.gif) no-repeat;*/
 }
 
 /* line 63, ../sass/lightbox.sass */
@@ -118,7 +118,7 @@
 }
 /* line 87, ../sass/lightbox.sass */
 .lb-prev:hover {
-  background: url(../img/prev.png) left 48% no-repeat;
+  /*background: url(../img/prev.png) left 48% no-repeat;*/
 }
 
 /* line 90, ../sass/lightbox.sass */
@@ -128,7 +128,7 @@
 }
 /* line 93, ../sass/lightbox.sass */
 .lb-next:hover {
-  background: url(../img/next.png) right 48% no-repeat;
+  /*background: url(../img/next.png) right 48% no-repeat;*/
 }
 
 /* line 96, ../sass/lightbox.sass */
@@ -183,7 +183,7 @@
   float: right;
   width: 30px;
   height: 30px;
-  background: url(../img/close.png) top right no-repeat;
+  /*background: url(../img/close.png) top right no-repeat;*/
   text-align: right;
   outline: none;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);

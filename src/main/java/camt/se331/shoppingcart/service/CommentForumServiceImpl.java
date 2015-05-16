@@ -22,7 +22,28 @@ public class CommentForumServiceImpl implements CommentForumService {
     }
 
     @Override
-    public List<CommentForum> getCommentByStatus(int status) {
+    public List<CommentForum> getCommentByStatus(boolean status) {
         return commentForumDao.getCommentByStatus(status);
+    }
+
+    @Override
+    public CommentForum getCommentById(long id) {
+        return commentForumDao.getCommentById(id);
+    }
+
+    @Override
+    public CommentForum deleteComment(long id) {
+        CommentForum commentForum = getCommentById(id);
+        return commentForumDao.deleteComment(commentForum);
+    }
+
+    @Override
+    public CommentForum addCommentForum(CommentForum commentForum) {
+        return commentForumDao.addCommentForum(commentForum);
+    }
+
+    @Override
+    public CommentForum editCommentForum(CommentForum commentForum) {
+        return commentForumDao.editCommentForum(commentForum);
     }
 }

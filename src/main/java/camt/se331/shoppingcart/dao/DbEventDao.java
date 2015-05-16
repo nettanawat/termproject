@@ -27,8 +27,8 @@ public class DbEventDao implements EventDao {
     }
 
     @Override
-    public List<Event> getEventByStatus(int status) {
-        return null;
+    public List<Event> getEventByStatus(boolean status) {
+        return eventRepository.findByStatus(status);
     }
 
     @Override
@@ -47,8 +47,10 @@ public class DbEventDao implements EventDao {
     }
 
     @Override
-    public Event deleteEvent(int memberId) {
-        return null;
+    public Event deleteEvent(Event event) {
+        eventRepository.delete(event);
+        event.setId(null);
+        return event;
     }
 
     @Override

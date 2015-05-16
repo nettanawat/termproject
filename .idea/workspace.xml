@@ -2,7 +2,78 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed707b38-2b48-464e-97ef-3b541a45ade3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/views/template/admin-viewMember.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/views/template/admin-addForum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/views/template/admin-forumList.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/camt/se331/shoppingcart/entity/CommentForum.class" afterPath="$PROJECT_DIR$/target/classes/camt/se331/shoppingcart/entity/CommentForum.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/WEB-INF/classes/camt/se331/shoppingcart/entity/CommentForum.class" afterPath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/WEB-INF/classes/camt/se331/shoppingcart/entity/CommentForum.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/camt/se331/shoppingcart/controller/CommentForumController.class" afterPath="$PROJECT_DIR$/target/classes/camt/se331/shoppingcart/controller/CommentForumController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/WEB-INF/classes/camt/se331/shoppingcart/controller/CommentForumController.class" afterPath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/WEB-INF/classes/camt/se331/shoppingcart/controller/CommentForumController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/camt/se331/shoppingcart/dao/CommentForumDao.class" afterPath="$PROJECT_DIR$/target/classes/camt/se331/shoppingcart/dao/CommentForumDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/WEB-INF/classes/camt/se331/shoppingcart/dao/CommentForumDao.class" afterPath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/WEB-INF/classes/camt/se331/shoppingcart/dao/CommentForumDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/camt/se331/shoppingcart/service/CommentForumService.class" afterPath="$PROJECT_DIR$/target/classes/camt/se331/shoppingcart/service/CommentForumService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/WEB-INF/classes/camt/se331/shoppingcart/service/CommentForumService.class" afterPath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/WEB-INF/classes/camt/se331/shoppingcart/service/CommentForumService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/camt/se331/shoppingcart/service/CommentForumServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/camt/se331/shoppingcart/service/CommentForumServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/WEB-INF/classes/camt/se331/shoppingcart/service/CommentForumServiceImpl.class" afterPath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/WEB-INF/classes/camt/se331/shoppingcart/service/CommentForumServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/camt/se331/shoppingcart/config/DatabaseInitializationBean.class" afterPath="$PROJECT_DIR$/target/classes/camt/se331/shoppingcart/config/DatabaseInitializationBean.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/WEB-INF/classes/camt/se331/shoppingcart/config/DatabaseInitializationBean.class" afterPath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/WEB-INF/classes/camt/se331/shoppingcart/config/DatabaseInitializationBean.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/camt/se331/shoppingcart/dao/DbCommentForumDao.class" afterPath="$PROJECT_DIR$/target/classes/camt/se331/shoppingcart/dao/DbCommentForumDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/WEB-INF/classes/camt/se331/shoppingcart/dao/DbCommentForumDao.class" afterPath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/WEB-INF/classes/camt/se331/shoppingcart/dao/DbCommentForumDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/camt/se331/shoppingcart/dao/DbEventDao.class" afterPath="$PROJECT_DIR$/target/classes/camt/se331/shoppingcart/dao/DbEventDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/WEB-INF/classes/camt/se331/shoppingcart/dao/DbEventDao.class" afterPath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/WEB-INF/classes/camt/se331/shoppingcart/dao/DbEventDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/camt/se331/shoppingcart/dao/DbForumDao.class" afterPath="$PROJECT_DIR$/target/classes/camt/se331/shoppingcart/dao/DbForumDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/WEB-INF/classes/camt/se331/shoppingcart/dao/DbForumDao.class" afterPath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/WEB-INF/classes/camt/se331/shoppingcart/dao/DbForumDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/camt/se331/shoppingcart/dao/DbMemberDao.class" afterPath="$PROJECT_DIR$/target/classes/camt/se331/shoppingcart/dao/DbMemberDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/WEB-INF/classes/camt/se331/shoppingcart/dao/DbMemberDao.class" afterPath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/WEB-INF/classes/camt/se331/shoppingcart/dao/DbMemberDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/camt/se331/shoppingcart/controller/EventController.class" afterPath="$PROJECT_DIR$/target/classes/camt/se331/shoppingcart/controller/EventController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/WEB-INF/classes/camt/se331/shoppingcart/controller/EventController.class" afterPath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/WEB-INF/classes/camt/se331/shoppingcart/controller/EventController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/camt/se331/shoppingcart/dao/EventDao.class" afterPath="$PROJECT_DIR$/target/classes/camt/se331/shoppingcart/dao/EventDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/WEB-INF/classes/camt/se331/shoppingcart/dao/EventDao.class" afterPath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/WEB-INF/classes/camt/se331/shoppingcart/dao/EventDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/camt/se331/shoppingcart/repository/EventRepository.class" afterPath="$PROJECT_DIR$/target/classes/camt/se331/shoppingcart/repository/EventRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/WEB-INF/classes/camt/se331/shoppingcart/repository/EventRepository.class" afterPath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/WEB-INF/classes/camt/se331/shoppingcart/repository/EventRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/camt/se331/shoppingcart/service/EventService.class" afterPath="$PROJECT_DIR$/target/classes/camt/se331/shoppingcart/service/EventService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/WEB-INF/classes/camt/se331/shoppingcart/service/EventService.class" afterPath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/WEB-INF/classes/camt/se331/shoppingcart/service/EventService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/camt/se331/shoppingcart/service/EventServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/camt/se331/shoppingcart/service/EventServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/WEB-INF/classes/camt/se331/shoppingcart/service/EventServiceImpl.class" afterPath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/WEB-INF/classes/camt/se331/shoppingcart/service/EventServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/camt/se331/shoppingcart/controller/ForumController.class" afterPath="$PROJECT_DIR$/target/classes/camt/se331/shoppingcart/controller/ForumController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/WEB-INF/classes/camt/se331/shoppingcart/controller/ForumController.class" afterPath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/WEB-INF/classes/camt/se331/shoppingcart/controller/ForumController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/camt/se331/shoppingcart/dao/ForumDao.class" afterPath="$PROJECT_DIR$/target/classes/camt/se331/shoppingcart/dao/ForumDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/WEB-INF/classes/camt/se331/shoppingcart/dao/ForumDao.class" afterPath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/WEB-INF/classes/camt/se331/shoppingcart/dao/ForumDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/camt/se331/shoppingcart/service/ForumService.class" afterPath="$PROJECT_DIR$/target/classes/camt/se331/shoppingcart/service/ForumService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/WEB-INF/classes/camt/se331/shoppingcart/service/ForumService.class" afterPath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/WEB-INF/classes/camt/se331/shoppingcart/service/ForumService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/camt/se331/shoppingcart/service/ForumServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/camt/se331/shoppingcart/service/ForumServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/WEB-INF/classes/camt/se331/shoppingcart/service/ForumServiceImpl.class" afterPath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/WEB-INF/classes/camt/se331/shoppingcart/service/ForumServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/camt/se331/shoppingcart/controller/MemberController.class" afterPath="$PROJECT_DIR$/target/classes/camt/se331/shoppingcart/controller/MemberController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/WEB-INF/classes/camt/se331/shoppingcart/controller/MemberController.class" afterPath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/WEB-INF/classes/camt/se331/shoppingcart/controller/MemberController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/camt/se331/shoppingcart/dao/MemberDao.class" afterPath="$PROJECT_DIR$/target/classes/camt/se331/shoppingcart/dao/MemberDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/WEB-INF/classes/camt/se331/shoppingcart/dao/MemberDao.class" afterPath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/WEB-INF/classes/camt/se331/shoppingcart/dao/MemberDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/camt/se331/shoppingcart/service/MemberService.class" afterPath="$PROJECT_DIR$/target/classes/camt/se331/shoppingcart/service/MemberService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/WEB-INF/classes/camt/se331/shoppingcart/service/MemberService.class" afterPath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/WEB-INF/classes/camt/se331/shoppingcart/service/MemberService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/camt/se331/shoppingcart/service/MemberServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/camt/se331/shoppingcart/service/MemberServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/WEB-INF/classes/camt/se331/shoppingcart/service/MemberServiceImpl.class" afterPath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/WEB-INF/classes/camt/se331/shoppingcart/service/MemberServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/entity/CommentForum.java" afterPath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/entity/CommentForum.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/controller/CommentForumController.java" afterPath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/controller/CommentForumController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/dao/CommentForumDao.java" afterPath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/dao/CommentForumDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/service/CommentForumService.java" afterPath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/service/CommentForumService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/service/CommentForumServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/service/CommentForumServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/config/DatabaseInitializationBean.java" afterPath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/config/DatabaseInitializationBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/dao/DbCommentForumDao.java" afterPath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/dao/DbCommentForumDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/dao/DbEventDao.java" afterPath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/dao/DbEventDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/dao/DbForumDao.java" afterPath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/dao/DbForumDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/dao/DbMemberDao.java" afterPath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/dao/DbMemberDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/controller/EventController.java" afterPath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/controller/EventController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/dao/EventDao.java" afterPath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/dao/EventDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/repository/EventRepository.java" afterPath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/repository/EventRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/service/EventService.java" afterPath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/service/EventService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/service/EventServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/service/EventServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/controller/ForumController.java" afterPath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/controller/ForumController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/dao/ForumDao.java" afterPath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/dao/ForumDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/repository/ForumRepository.java" afterPath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/repository/ForumRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/service/ForumService.java" afterPath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/service/ForumService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/service/ForumServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/service/ForumServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/controller/MemberController.java" afterPath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/controller/MemberController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/dao/MemberDao.java" afterPath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/dao/MemberDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/service/MemberService.java" afterPath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/service/MemberService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/service/MemberServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/service/MemberServiceImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/views/template/admin-addEvent.html" afterPath="$PROJECT_DIR$/src/main/webapp/views/template/admin-addEvent.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/views/template/admin-addEvent.html" afterPath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/views/template/admin-addEvent.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/views/template/admin-addMember.html" afterPath="$PROJECT_DIR$/src/main/webapp/views/template/admin-addMember.html" />
@@ -11,13 +82,32 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/views/template/admin-eventList.html" afterPath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/views/template/admin-eventList.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/views/template/admin-memberList.html" afterPath="$PROJECT_DIR$/src/main/webapp/views/template/admin-memberList.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/views/template/admin-memberList.html" afterPath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/views/template/admin-memberList.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/views/template/admin-menu.html" afterPath="$PROJECT_DIR$/src/main/webapp/views/template/admin-menu.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/views/app.css" afterPath="$PROJECT_DIR$/src/main/webapp/views/app.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/views/app.css" afterPath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/views/app.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/views/app.js" afterPath="$PROJECT_DIR$/src/main/webapp/views/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/views/app.js" afterPath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/views/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/views/template/event.html" afterPath="$PROJECT_DIR$/src/main/webapp/views/template/event.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/views/js/commentForumController.js" afterPath="$PROJECT_DIR$/src/main/webapp/views/js/commentForumController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/views/js/commentForumController.js" afterPath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/views/js/commentForumController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/views/js/eventController.js" afterPath="$PROJECT_DIR$/src/main/webapp/views/js/eventController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/views/js/eventController.js" afterPath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/views/js/eventController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/views/template/forum.html" afterPath="$PROJECT_DIR$/src/main/webapp/views/template/forum.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/views/template/forum.html" afterPath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/views/template/forum.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/views/js/forumController.js" afterPath="$PROJECT_DIR$/src/main/webapp/views/js/forumController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/views/js/forumController.js" afterPath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/views/js/forumController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/views/js/forumService.js" afterPath="$PROJECT_DIR$/src/main/webapp/views/js/forumService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/views/js/forumService.js" afterPath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/views/js/forumService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/views/lightbox.css" afterPath="$PROJECT_DIR$/src/main/webapp/views/lightbox.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/views/lightbox.css" afterPath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/views/lightbox.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/views/js/memberController.js" afterPath="$PROJECT_DIR$/src/main/webapp/views/js/memberController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/views/js/memberController.js" afterPath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/views/js/memberController.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/message_en.properties" afterPath="$PROJECT_DIR$/src/main/resources/message_en.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/message_en.properties" afterPath="$PROJECT_DIR$/target/classes/message_en.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/WEB-INF/classes/message_en.properties" afterPath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/WEB-INF/classes/message_en.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/message_th.properties" afterPath="$PROJECT_DIR$/src/main/resources/message_th.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/message_th.properties" afterPath="$PROJECT_DIR$/target/classes/message_th.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/WEB-INF/classes/message_th.properties" afterPath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/WEB-INF/classes/message_th.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/views/template/signup.html" afterPath="$PROJECT_DIR$/src/main/webapp/views/template/signup.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/views/template/signup.html" afterPath="$PROJECT_DIR$/target/lab07-1.0-SNAPSHOT/views/template/signup.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="termproject.iws" />
@@ -44,66 +134,68 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="admin-viewMember.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/views/template/admin-viewMember.html">
+      <file leaf-file-name="MemberController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/controller/MemberController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.20833333" vertical-offset="25" max-vertical-offset="705">
-              <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="660">
+              <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
               <folding>
-                <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="e#1432#1433#0" expanded="true" />
+                <element signature="e#1485#1486#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/views/template/index.html">
+      <file leaf-file-name="admin-menu.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/views/template/admin-menu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="45" max-vertical-offset="2700">
-              <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+            <state vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="540">
+              <caret line="15" column="82" selection-start-line="15" selection-start-column="82" selection-end-line="15" selection-end-column="82" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/views/template/footer.html">
+      <file leaf-file-name="admin-forumList.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/views/template/admin-forumList.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.5" vertical-offset="45" max-vertical-offset="630">
-              <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.6825397" vertical-offset="74" max-vertical-offset="570">
+              <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/views/style.css">
+      <file leaf-file-name="message_en.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/message_en.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="12675">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state vertical-scroll-proportion="-9.5" vertical-offset="0" max-vertical-offset="1440">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="ResourceBundle">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Forum.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/entity/Forum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1125">
+              <caret line="20" column="17" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="event.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/views/template/event.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.5" vertical-offset="195" max-vertical-offset="885">
-              <caret line="33" column="115" selection-start-line="33" selection-start-column="115" selection-end-line="33" selection-end-column="115" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin-memberList.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="admin-memberList.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/views/template/admin-memberList.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.80972517" vertical-offset="97" max-vertical-offset="570">
-              <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="-14.625" vertical-offset="99" max-vertical-offset="600">
+              <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="161" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -111,18 +203,28 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/views/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="850" max-vertical-offset="1410">
-              <caret line="64" column="49" selection-start-line="64" selection-start-column="49" selection-end-line="64" selection-end-column="49" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="960" max-vertical-offset="1590">
+              <caret line="79" column="31" selection-start-line="79" selection-start-column="31" selection-end-line="79" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="memberController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/views/js/memberController.js">
+      <file leaf-file-name="forumController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/views/js/forumController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="226" max-vertical-offset="1125">
-              <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="1350">
+              <caret line="38" column="50" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/controller/ProductController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="570">
+              <caret line="26" column="50" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -136,57 +238,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/views/js/commentForumController.js" />
-        <option value="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/controller/CommentForumController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/entity/CommentForum.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/style.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/template/footer.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/template/forum.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/template/forumList.html" />
-        <option value="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/entity/Forum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/service/ForumService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/service/ForumServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/controller/ForumController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/service/EventService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/dao/EventDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/entity/Event.java" />
-        <option value="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/repository/EventRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/repository/ForumRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/template/event-program-detail.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/template/events-programs.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/template/eventList.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/template/index.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/template/admin-event.html" />
-        <option value="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/repository/MemberRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/dao/MemberDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/service/MemberService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/config/DatabaseInitializationBean.java" />
-        <option value="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/dao/ForumDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/dao/DbForumDao.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/js/forumController.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/template/admin-dashboard.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/template/editProduct.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/template/memberList.html" />
         <option value="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/entity/Member.java" />
-        <option value="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/dao/DbMemberDao.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/js/memberService.js" />
-        <option value="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/controller/MemberController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/service/MemberServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/template/admin-menu.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/js/eventController.js" />
-        <option value="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/controller/EventController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/service/EventServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/dao/DbEventDao.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/template/admin-eventList.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/template/admin-addEvent.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/template/admin-addMember.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/app.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/template/admin-memberList.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/js/memberController.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/template/admin-viewMember.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/template/event.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/message_en.properties" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/app.css" />
+        <option value="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/config/DatabaseInitializationBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/entity/CommentForum.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/js/commentForumController.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/js/forumService.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/js/productController.js" />
+        <option value="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/dao/MemberDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/service/MemberService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/dao/EventDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/repository/EventRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/dao/DbEventDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/repository/ForumRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/dao/ForumDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/dao/DbForumDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/dao/CommentForumDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/dao/DbCommentForumDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/service/CommentForumService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/service/CommentForumServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/controller/EventController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/service/EventService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/service/EventServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/service/ForumService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/service/ForumServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/controller/ForumController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/controller/MemberController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/controller/CommentForumController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/dao/DbMemberDao.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/lightbox.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/js/eventController.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/template/admin-addEvent.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/template/admin-eventList.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/template/admin-addMember.html" />
+        <option value="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/service/MemberServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/template/signup.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/template/admin-memberList.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/js/memberController.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/template/forum.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/template/admin-menu.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/template/admin-addForum.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/js/forumController.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/app.js" />
         <option value="$PROJECT_DIR$/src/main/resources/message_th.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/message_en.properties" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/template/admin-forumList.html" />
       </list>
     </option>
   </component>
@@ -210,7 +312,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="873" />
+    <option name="height" value="824" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -237,7 +339,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -337,36 +438,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="termproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="termproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -422,6 +493,36 @@
               <option name="myItemId" value="shoppingcart" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="termproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="termproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shoppingcart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -449,12 +550,103 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="repository" />
+              <option name="myItemId" value="entity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="termproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="termproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shoppingcart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="termproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="termproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shoppingcart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="termproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="termproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shoppingcart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -738,6 +930,7 @@
       <method />
     </configuration>
     <configuration default="false" name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.18" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="lab07:war exploded">
@@ -856,49 +1049,20 @@
       <workItem from="1431359902179" duration="358000" />
       <workItem from="1431423694505" duration="35000" />
       <workItem from="1431601852665" duration="428000" />
+      <workItem from="1431666909728" duration="10429000" />
+      <workItem from="1431700597123" duration="11857000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84418000" />
+    <option name="totallyTimeSpent" value="106704000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="873" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="23" width="1440" height="824" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3989071" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329235" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329235" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1988555" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277849" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329235" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -910,23 +1074,23 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329235" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1988555" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32786885" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32650274" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329235" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.397541" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329235" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329235" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3989071" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329235" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
+    </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -946,7 +1110,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="11" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="19" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -955,386 +1122,443 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/repository/EventRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/service/ProductServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29094827" vertical-offset="0" max-vertical-offset="464">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/dao/MemberDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32397407" vertical-offset="0" max-vertical-offset="463">
-          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.703125" vertical-offset="0" max-vertical-offset="704">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/entity/Event.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.7133621" vertical-offset="2116" max-vertical-offset="2580">
-          <caret line="175" column="0" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.19176136" vertical-offset="0" max-vertical-offset="2505">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/dao/ForumDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/dao/ProductDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38793105" vertical-offset="0" max-vertical-offset="464">
-          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.2556818" vertical-offset="0" max-vertical-offset="704">
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/dao/DbForumDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/dao/EventDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="271" max-vertical-offset="780">
-          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.27698863" vertical-offset="0" max-vertical-offset="704">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/entity/Product.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/repository/EventRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19396552" vertical-offset="0" max-vertical-offset="1215">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/js/forumController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/template/admin-dashboard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="2250">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/entity/Member.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1157" max-vertical-offset="2220">
-          <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/template/memberList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47727272" vertical-offset="0" max-vertical-offset="630">
-          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/js/productService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-          <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/repository/ProductRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2262931" vertical-offset="0" max-vertical-offset="464">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/service/ProductService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2262931" vertical-offset="0" max-vertical-offset="464">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/service/ProductServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8060345" vertical-offset="76" max-vertical-offset="585">
-          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/dao/DbProductDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57974136" vertical-offset="211" max-vertical-offset="675">
-          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/dao/DbMemberDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="316" max-vertical-offset="795">
-          <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/js/memberService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/controller/ProductController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.80818963" vertical-offset="0" max-vertical-offset="570">
-          <caret line="35" column="76" selection-start-line="35" selection-start-column="76" selection-end-line="35" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/js/productController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="586" max-vertical-offset="1050">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/template/editProduct.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65909094" vertical-offset="460" max-vertical-offset="900">
-          <caret line="50" column="58" selection-start-line="50" selection-start-column="58" selection-end-line="50" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/template/productList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11363637" vertical-offset="475" max-vertical-offset="915">
-          <caret line="35" column="44" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/template/admin-menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.958333" vertical-offset="61" max-vertical-offset="525">
-          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/service/EventService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32327586" vertical-offset="0" max-vertical-offset="464">
-          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/controller/MemberController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54741377" vertical-offset="91" max-vertical-offset="555">
-          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/controller/EventController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7090517" vertical-offset="121" max-vertical-offset="585">
-          <caret line="42" column="47" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/service/MemberService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32327586" vertical-offset="0" max-vertical-offset="464">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/service/MemberServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57974136" vertical-offset="151" max-vertical-offset="630">
-          <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/service/EventServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4827586" vertical-offset="196" max-vertical-offset="675">
-          <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.234375" vertical-offset="0" max-vertical-offset="704">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/dao/DbEventDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57974136" vertical-offset="196" max-vertical-offset="1050">
-          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.6451613" vertical-offset="180" max-vertical-offset="1080">
+          <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/js/eventController.js">
+    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/repository/ForumRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="638" max-vertical-offset="1365">
-          <caret line="63" column="33" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.32258064" vertical-offset="0" max-vertical-offset="465">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/template/admin-eventList.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/entity/CommentForum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="570">
-          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.39139786" vertical-offset="598" max-vertical-offset="1320">
+          <caret line="74" column="73" selection-start-line="74" selection-start-column="73" selection-end-line="74" selection-end-column="73" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/template/admin-addEvent.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/dao/DbCommentForumDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64772725" vertical-offset="180" max-vertical-offset="675">
-          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/template/admin-addMember.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.333333" vertical-offset="256" max-vertical-offset="750">
-          <caret line="32" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="44" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.7096774" vertical-offset="225" max-vertical-offset="690">
+          <caret line="49" column="55" selection-start-line="49" selection-start-column="55" selection-end-line="49" selection-end-column="55" />
           <folding>
-            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="e#1304#1305#0" expanded="false" />
+            <element signature="e#1368#1369#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/app.js">
+    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/service/CommentForumService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="850" max-vertical-offset="1410">
-          <caret line="64" column="49" selection-start-line="64" selection-start-column="49" selection-end-line="64" selection-end-column="49" />
+        <state vertical-scroll-proportion="0.29032257" vertical-offset="0" max-vertical-offset="465">
+          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/config/DatabaseInitializationBean.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/dao/CommentForumDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3340517" vertical-offset="326" max-vertical-offset="1905">
-          <caret line="70" column="64" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/config/SerializableResourceBundleMessageSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4202586" vertical-offset="0" max-vertical-offset="464">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/config/WebAppInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54741377" vertical-offset="31" max-vertical-offset="495">
-          <caret line="34" column="57" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/config/PersistenceContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45043105" vertical-offset="916" max-vertical-offset="1380">
-          <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.38709676" vertical-offset="0" max-vertical-offset="465">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="15" selection-end-column="61" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/controller/CommentForumController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/service/CommentForumServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29094827" vertical-offset="0" max-vertical-offset="464">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="660">
+          <caret line="46" column="60" selection-start-line="46" selection-start-column="60" selection-end-line="46" selection-end-column="60" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/service/EventService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.2613636" vertical-offset="555" max-vertical-offset="1275">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.4516129" vertical-offset="0" max-vertical-offset="465">
+          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/template/admin-viewMember.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/service/EventServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.20833333" vertical-offset="25" max-vertical-offset="705">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.5483871" vertical-offset="180" max-vertical-offset="645">
+          <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/controller/EventController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1290323" vertical-offset="90" max-vertical-offset="750">
+          <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
           <folding>
-            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="e#1789#1790#0" expanded="false" />
+            <element signature="e#1840#1841#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/style.css">
+    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/dao/DbForumDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="12675">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.7741935" vertical-offset="345" max-vertical-offset="810">
+          <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+          <folding>
+            <element signature="e#1076#1083#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/dao/ForumDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41935483" vertical-offset="0" max-vertical-offset="465">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="17" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/template/event.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/service/ForumService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.5" vertical-offset="195" max-vertical-offset="885">
-          <caret line="33" column="115" selection-start-line="33" selection-start-column="115" selection-end-line="33" selection-end-column="115" />
+        <state vertical-scroll-proportion="0.38709676" vertical-offset="0" max-vertical-offset="465">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/template/index.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/service/ForumServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="2700">
-          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+        <state vertical-scroll-proportion="0.6451613" vertical-offset="270" max-vertical-offset="735">
+          <caret line="51" column="39" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
+          <folding>
+            <element signature="e#1052#1053#0" expanded="false" />
+            <element signature="e#1099#1100#0" expanded="false" />
+            <element signature="e#1156#1157#0" expanded="false" />
+            <element signature="e#1204#1205#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/controller/ForumController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8064516" vertical-offset="165" max-vertical-offset="630">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/template/footer.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/service/MemberService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.5" vertical-offset="45" max-vertical-offset="630">
-          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.2542373" vertical-offset="0" max-vertical-offset="413">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/js/memberController.js">
+    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/dao/MemberDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="226" max-vertical-offset="1125">
-          <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.2542373" vertical-offset="0" max-vertical-offset="413">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/message_en.properties">
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/dao/DbProductDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7751606" vertical-offset="793" max-vertical-offset="1260">
-          <caret line="77" column="23" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.56658596" vertical-offset="186" max-vertical-offset="675">
+          <caret line="40" column="49" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/repository/MemberRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24144869" vertical-offset="0" max-vertical-offset="497">
-          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/lightbox.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2341" max-vertical-offset="3045">
+          <caret line="186" column="20" selection-start-line="186" selection-start-column="20" selection-end-line="186" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/controller/CommentForumController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7775378" vertical-offset="0" max-vertical-offset="630">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <element signature="e#1043#1044#0" expanded="true" />
+            <element signature="e#1103#1104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/template/admin-addEvent.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.625" vertical-offset="0" max-vertical-offset="675">
+          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/repository/ProductRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32258064" vertical-offset="0" max-vertical-offset="465">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/js/eventController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="1320">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/views/js/commentForumController.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="286" max-vertical-offset="1320">
+          <caret line="48" column="17" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/dao/DbMemberDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46973366" vertical-offset="286" max-vertical-offset="975">
+          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/config/DatabaseInitializationBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.39951575" vertical-offset="465" max-vertical-offset="1905">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/service/MemberServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
+          <caret line="41" column="43" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/template/admin-addMember.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.0" vertical-offset="189" max-vertical-offset="750">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="168" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/js/productController.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1050">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/template/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.5" vertical-offset="15" max-vertical-offset="675">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/entity/Member.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22580644" vertical-offset="0" max-vertical-offset="1680">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/template/forum.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.71428573" vertical-offset="0" max-vertical-offset="1140">
+          <caret line="21" column="55" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#1;n#div#1;n#div#1;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/controller/MemberController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="660">
+          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+          <folding>
+            <element signature="e#1432#1433#0" expanded="true" />
+            <element signature="e#1485#1486#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/template/admin-eventList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44217688" vertical-offset="105" max-vertical-offset="570">
+          <caret line="20" column="50" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/js/memberController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16129032" vertical-offset="0" max-vertical-offset="1260">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="26" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/template/admin-addForum.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/message_th.properties">
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/controller/ProductController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48608136" vertical-offset="568" max-vertical-offset="1035">
-          <caret line="53" column="28" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="570">
+          <caret line="26" column="50" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/js/forumController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="1350">
+          <caret line="38" column="50" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/views/template/admin-memberList.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.80972517" vertical-offset="97" max-vertical-offset="570">
-          <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="-14.625" vertical-offset="99" max-vertical-offset="600">
+          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="161" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="960" max-vertical-offset="1590">
+          <caret line="79" column="31" selection-start-line="79" selection-start-column="31" selection-end-line="79" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/template/admin-menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="540">
+          <caret line="15" column="82" selection-start-line="15" selection-start-column="82" selection-end-line="15" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/entity/Forum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1125">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/message_th.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9310345" vertical-offset="0" max-vertical-offset="1140">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/message_en.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.5" vertical-offset="0" max-vertical-offset="1440">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/template/admin-forumList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6825397" vertical-offset="74" max-vertical-offset="570">
+          <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+          <folding />
         </state>
       </provider>
     </entry>

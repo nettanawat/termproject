@@ -36,5 +36,21 @@ public class ForumServiceImpl implements ForumService {
         return forumDao.getLastTwoForum();
     }
 
+    @Override
+    public Forum deleteForum(long id) {
+        Forum forum = getForumById(id);
+        return forumDao.deleteForum(forum);
+    }
+
+    @Override
+    public Forum addForum(Forum forum) {
+        return forumDao.addForum(forum);
+    }
+
+    @Override
+    public Forum editForum(Forum forum) {
+        return forumDao.editForum(forum);
+    }
+
 
 }

@@ -3,10 +3,8 @@ package camt.se331.shoppingcart.controller;
 import camt.se331.shoppingcart.entity.Forum;
 import camt.se331.shoppingcart.service.ForumService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -33,5 +31,20 @@ public class ForumController {
     @RequestMapping(value = "/lasttwoforum",method = RequestMethod.GET)
     public  List<Forum> getLastTwoForum(){
         return forumService.getLastTwoForum();
+    }
+
+    @RequestMapping(value = "/deleteforum/{id}",method = RequestMethod.DELETE)
+    public Forum deleteForum(@PathVariable("id") Long id){
+        return forumService.deleteForum(id);
+    }
+
+    @RequestMapping(value = "/editforum/{id}",method = RequestMethod.PUT)
+    public  Forum editForum(@PathVariable("id") Long id,@RequestBody Forum forum, BindingResult bindingResult){
+        return forumService.editForum(forum);
+    }
+
+    @RequestMapping(value = "/addforum",method = RequestMethod.POST)
+    public @ResponseBody Forum addForum(@RequestBody Forum forum, BindingResult bindingResult){
+        return forumService.addForum(forum);
     }
 }

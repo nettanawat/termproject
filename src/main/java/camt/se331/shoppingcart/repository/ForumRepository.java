@@ -11,4 +11,5 @@ import java.util.List;
 public interface ForumRepository extends JpaRepository<Forum, Long> {
     List<Forum> findAllByOrderByIdDesc();
     List<Forum> findTop2ByOrderByIdDesc();
+
 }

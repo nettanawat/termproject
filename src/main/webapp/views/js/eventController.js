@@ -2,22 +2,19 @@
 
 var eventMainController = angular.module('eventMainController', ['eventServices']);
 
-productMainController.controller('addProductController', ['$scope', '$http', '$location', '$rootScope','productService',
-    function ($scope, $http, $location, $rootScope,productService) {
+eventMainController.controller('addEventController', ['$scope', '$http', '$location', '$rootScope',
+    function ($scope, $http, $location, $rootScope) {
         $scope.product = {};
-        $scope.addPerson = true;
-        $scope.editPerson = false;
-        $scope.addProduct = function () {
+        $scope.addEvent = true;
+        $scope.editEvent = false;
+        $scope.addEvent = function () {
 
             //$http.post("/product", $scope.product).success(function () {
             productService.save($scope.product,function(){
                 $rootScope.addSuccess = true;
                 $location.path("listProduct");
-
             });
         };
-
-
     }]);
 
 eventMainController.controller('listEventController', ['$scope', '$http', '$rootScope','eventService','$route','totalCalService',

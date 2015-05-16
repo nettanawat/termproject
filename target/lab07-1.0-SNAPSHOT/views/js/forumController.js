@@ -24,22 +24,62 @@ forumMainController.controller('listForumController', ['$scope', '$http', '$root
             $rootScope.deleteSuccess = false;
         });
 
-        $scope.deleteProduct = function (id) {
-            var answer = confirm("Do you want to delete the product?");
-            if (answer) {
-                productService.delete({id:id},function(){
-                    $rootScope.deleteSuccess = true;
-                    $route.reload();
-                })
-            }
-        }
+        //$scope.deleteForum = function (id) {
+        //    var answer = confirm("Do you want to delete the product?");
+        //    if (answer) {
+        //        $http.put("/comment/deletecomment/" +id, $scope.forum).then(function () {
+        //            $rootScope.deleteSuccess = true;
+        //            $route.reload();
+        //        });
+        //    }
+        //}
 
     }]);
 
-forumMainController.controller('aForumController', ['$scope', '$http','$routeParams', '$rootScope','$route',
-    function ($scope, $http,$routeParams, $rootScope,forumService,$route) {
+forumMainController.controller('addForumController', ['$scope', '$http', '$location', '$rootScope',
+    function ($scope, $http, $location, $rootScope) {
+        $scope.forum = {};
+        $scope.addMember = true;
+        $scope.editMember = false;
+
+        //for admin
+        $scope.addForumAdmin = function () {
+            $http.post("/forum/addforum", $scope.forum).success(function () {
+                $rootScope.addSuccess = true;
+                $location.path("/admin/listforum");
+            });
+        };
+
+        //user
+        $scope.addForum = function () {
+            $http.post("/forum/addforum", $scope.member).success(function () {
+                $rootScope.addSuccess = true;
+                $location.path("/forums");
+            });
+        };
+    }]);
+
+forumMainController.controller('aForumController', ['$scope', '$http','$routeParams', '$rootScope','$route','$location',
+    function ($scope, $http,$routeParams, $rootScope,forumService,$route,$location) {
         var id = $routeParams.id;
+        $rootScope.showDelete = true;
         $http.get("/forum/forumById/" + id).success(function (data) {
             $scope.forum = data;
+            var comment = $scope.forum.commentForums;
+            for(var i=0; i<comment.length;i++){
+                if(comment[i].status==false){
+                    $rootScope.showDelete = false;
+                }
+            }
         });
+
+        $scope.deleteComment = function (id) {
+            var answer = confirm("Are you sure to delete this comment?");
+            if (answer) {
+                $http.delete("/comment/deletecomment/" + id, "").then(function () {
+                    $rootScope.deleteSuccess = true;
+                    $route.reload();
+                });
+            }
+        }
     }]);

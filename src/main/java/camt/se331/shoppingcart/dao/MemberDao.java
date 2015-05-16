@@ -14,7 +14,7 @@ public interface MemberDao {
     Member getMember(Long id);
     Member addMember(Member member);
     Member updateMember(Member member);
-    Member deleteMember(int memberId);
+    Member deleteMember(Member member);
     Member getMemberByEmailAndPassword(String email, String password);
     List<Member> getLastFiveJoinedMember();
  }

@@ -77,6 +77,18 @@ labApp.config(['$routeProvider',
           templateUrl: 'template/admin-addEvent.html',
           controller: 'editEventController'
       }).
+      when('/admin/listforum',{
+          templateUrl: 'template/admin-forumList.html',
+          controller: 'listForumController'
+      }).
+      when('/admin/addforum',{
+          templateUrl: 'template/admin-addForum.html',
+          controller: 'addForumController'
+      }).
+      when('/admin/editforum/:id',{
+          templateUrl: 'template/admin-addForum.html',
+          controller: 'editEventController'
+      }).
        otherwise({redirectTo: '/filenotfound'});
 }]);
 

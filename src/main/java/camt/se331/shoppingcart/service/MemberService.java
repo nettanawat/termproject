@@ -13,6 +13,6 @@ public interface MemberService {
     Member getMember(Long id);
     Member addMember(Member member);
     Member updateMember(Member member);
-    Member deleteMember(int memberId);
+    Member deleteMember(long memberId);
     List<Member> getLastFiveJoinedMember();
 }

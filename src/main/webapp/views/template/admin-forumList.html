@@ -1,0 +1,33 @@
+<div ng-include src="'template/admin-menu.html'"></div>
+<div style="margin-top: 80px;" class="container-fluid">
+    <!-- Table -->
+    <div style="margin-bottom: 20px;" class="col-md-7">
+        <h2>Forum</h2>
+    </div>
+    <div class="col-md-4">
+        <input placeholder="search" class="form-control" ng-model="searchEvent">
+    </div><a href="#/admin/addforum" class="btn btn-default col-md-1" translate>a.addforum</a>
+    <table class="table table-hover col-md-12">
+        <tr>
+            <th class="col-md-1">#</th>
+            <th class="col-md-3" translate>listForum.title</th>
+            <th class="col-md-3" translate>listForum.detail</th>
+            <th class="col-md-1" translate>listForum.date</th>
+            <th class="col-md-2" translate>listForum.postby</th>
+            <th class="col-md-1" translate>listForum.status</th>
+            <th class="col-md-1" translate>listForum.action</th>
+        </tr>
+        <tr ng-repeat="forum in forums | filter:searchEvent">
+            <td class="col-md-1">{{$index+1}}</td>
+            <td class="col-md-3"><a ng-href="#/event/{{forum.id}}" target="_blank">{{forum.title}}</a></td>
+            <td class="col-md-3">{{forum.detail | limitTo:200}}...</td>
+            <td class="col-md-1">{{forum.formatDate}}</td>
+            <td class="col-md-2">{{forum.postBy.firstName}} {{forum.postBy.lastName}}</td>
+            <td class="col-md-1">{{forum.status}}</td>
+            <td class="col-md-1">
+                <a ng-href="#/admin/editevent/{{event.id}}"> <span class="glyphicon glyphicon-edit" aria-hidden="true"></span></a>
+                <a ng-href="#/admin/listevent"><span class="glyphicon glyphicon-remove-circle" aria-hidden="true" ng-click="deleteEvent(event.id)"></span></a>
+            </td>
+        </tr>
+    </table>
+</div>

@@ -52,8 +52,11 @@ public class DbMemberDao implements MemberDao {
     }
 
     @Override
-    public Member deleteMember(int memberId) {
-        return null;
+    public Member deleteMember(Member member) {
+        member.setStatus(false);
+        return memberRepository.save(member);
+//        memberRepository.delete(member);
+//        return member;
     }
 
     @Override

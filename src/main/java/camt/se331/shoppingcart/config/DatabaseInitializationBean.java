@@ -25,7 +25,7 @@ public class DatabaseInitializationBean implements InitializingBean {
 
     @Override
     public void afterPropertiesSet() throws Exception {
-        Calendar cal = new GregorianCalendar(2015, 6, 7);
+        Calendar cal = new GregorianCalendar();
         Calendar cal1 = new GregorianCalendar(2015, 7, 7);
         Calendar cal2 = new GregorianCalendar(2015, 8, 7);
         Calendar cal3 = new GregorianCalendar(2015, 12, 7);
@@ -78,35 +78,35 @@ public class DatabaseInitializationBean implements InitializingBean {
 
 
         CommentForum[] initCommentForums1 = {
-                new CommentForum(1l, "Wat Chedi Luang is on Prapokklao Road which runs roughly through the north-south center line of the old city, from Changpuak Gate to Chaing Mai Gate. The temple is just a short walk south of the intersection with the main east-west Ratchadamnoen Road.", initMember[0], cal.getTime(), 1),
-                new CommentForum(2l, "Round whitewashed columns support", initMember[1], cal.getTime(), 1),
-                new CommentForum(3l, "Huh, that's really cool", initMember[2], cal.getTime(), 1),
-                new CommentForum(4l, "Whattttt, that's really cool", initMember[3], cal.getTime(), 1)
+                new CommentForum(1l, "Wat Chedi Luang is on Prapokklao Road which runs roughly through the north-south center line of the old city, from Changpuak Gate to Chaing Mai Gate. The temple is just a short walk south of the intersection with the main east-west Ratchadamnoen Road.", initMember[0], cal.getTime(), true),
+                new CommentForum(2l, "Round whitewashed columns support", initMember[1], cal.getTime(), true),
+                new CommentForum(3l, "This comment has been removed by administrator due to maintain a conversation of the other members.", initMember[2], cal.getTime(), false),
+                new CommentForum(4l, "Whattttt, that's really cool", initMember[3], cal.getTime(), true)
         };
 
         CommentForum[] initCommentForums2 = {
-                new CommentForum(5l, "Wat Chedi Luang is on Prapokklao Road which runs roughly through the north-south center line of the old city, from Changpuak Gate to Chaing Mai Gate. The temple is just a short walk south of the intersection with the main east-west Ratchadamnoen Road.", initMember[0], cal.getTime(), 1),
-                new CommentForum(6l, "Round whitewashed columns support", initMember[1], cal.getTime(), 1),
-                new CommentForum(7l, "Huh, that's really cool", initMember[2], cal.getTime(), 1),
-                new CommentForum(8l, "Whattttt, that's really cool", initMember[3], cal.getTime(), 1),
-                new CommentForum(9l, "Wat Chedi Luang is on Prapokklao Road which runs roughly through the north-south center line of the old city, from Changpuak Gate to Chaing Mai Gate. The temple is just a short walk south of the intersection with the main east-west Ratchadamnoen Road.", initMember[0], cal.getTime(), 1)
+                new CommentForum(5l, "Wat Chedi Luang is on Prapokklao Road which runs roughly through the north-south center line of the old city, from Changpuak Gate to Chaing Mai Gate. The temple is just a short walk south of the intersection with the main east-west Ratchadamnoen Road.", initMember[0], cal.getTime(), true),
+                new CommentForum(6l, "Round whitewashed columns support", initMember[1], cal.getTime(), true),
+                new CommentForum(7l, "Huh, that's really cool", initMember[2], cal.getTime(), true),
+                new CommentForum(8l, "Whattttt, that's really cool", initMember[3], cal.getTime(), true),
+                new CommentForum(9l, "This comment has been removed by administrator due to maintain a conversation of the other members.", initMember[0], cal.getTime(), false)
         };
 
         CommentForum[] initCommentForums3 = {
-                new CommentForum(10l, "Round whitewashed columns support", initMember[1], cal.getTime(), 1),
-                new CommentForum(11l, "Huh, that's really cool", initMember[2], cal.getTime(), 1),
-                new CommentForum(12l, "Whattttt, that's really cool", initMember[3], cal.getTime(), 1),
-                new CommentForum(13l, "Wat Chedi Luang is on Prapokklao Road which runs roughly through the north-south center line of the old city, from Changpuak Gate to Chaing Mai Gate. The temple is just a short walk south of the intersection with the main east-west Ratchadamnoen Road.", initMember[0], cal.getTime(), 1),
-                new CommentForum(14l, "Round whitewashed columns support", initMember[1], cal.getTime(), 1)
+                new CommentForum(10l, "Round whitewashed columns support", initMember[1], cal.getTime(), true),
+                new CommentForum(11l, "Huh, that's really cool", initMember[2], cal.getTime(), true),
+                new CommentForum(12l, "Whattttt, that's really cool", initMember[3], cal.getTime(), true),
+                new CommentForum(13l, "Wat Chedi Luang is on Prapokklao Road which runs roughly through the north-south center line of the old city, from Changpuak Gate to Chaing Mai Gate. The temple is just a short walk south of the intersection with the main east-west Ratchadamnoen Road.", initMember[0], cal.getTime(), true),
+                new CommentForum(14l, "Round whitewashed columns support", initMember[1], cal.getTime(), true)
         };
 
         CommentForum[] initCommentForums4 = {
-                new CommentForum(15l, "Huh, that's really cool", initMember[2], cal.getTime(), 1),
-                new CommentForum(16l, "Whattttt, that's really cool", initMember[3], cal.getTime(), 1),
-                new CommentForum(17l, "Wat Chedi Luang is on Prapokklao Road which runs roughly through the north-south center line of the old city, from Changpuak Gate to Chaing Mai Gate. The temple is just a short walk south of the intersection with the main east-west Ratchadamnoen Road.", initMember[0], cal.getTime(), 1),
-                new CommentForum(18l, "Round whitewashed columns support", initMember[1], cal.getTime(), 1),
-                new CommentForum(19l, "Wat Chedi Luang is on Prapokklao Road which runs roughly through the north-south center line of the old city, from Changpuak Gate to Chaing Mai Gate. The temple is just a short walk south of the intersection with the main east-west Ratchadamnoen Road.", initMember[0], cal.getTime(), 1),
-                new CommentForum(20l, "Round whitewashed columns support", initMember[1], cal.getTime(), 1),
+                new CommentForum(15l, "Huh, that's really cool", initMember[2], cal.getTime(), true),
+                new CommentForum(16l, "Whattttt, that's really cool", initMember[3], cal.getTime(), true),
+                new CommentForum(17l, "Wat Chedi Luang is on Prapokklao Road which runs roughly through the north-south center line of the old city, from Changpuak Gate to Chaing Mai Gate. The temple is just a short walk south of the intersection with the main east-west Ratchadamnoen Road.", initMember[0], cal.getTime(), true),
+                new CommentForum(18l, "Round whitewashed columns support", initMember[1], cal.getTime(), true),
+                new CommentForum(19l, "Wat Chedi Luang is on Prapokklao Road which runs roughly through the north-south center line of the old city, from Changpuak Gate to Chaing Mai Gate. The temple is just a short walk south of the intersection with the main east-west Ratchadamnoen Road.", initMember[0], cal.getTime(), true),
+                new CommentForum(20l, "Round whitewashed columns support", initMember[1], cal.getTime(), true),
         };
 
         List<CommentForum> commentForumList = new ArrayList<>();

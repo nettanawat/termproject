@@ -13,4 +13,7 @@ public interface ForumDao {
     Forum getForumById(Long id);
     List<Forum> getLastTwoForum();
     List<Forum> getTopFiveCommentedForum();
+    Forum deleteForum(Forum forum);
+    Forum addForum(Forum forum);
+    Forum editForum(Forum forum);
 }

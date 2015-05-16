@@ -9,11 +9,11 @@ import java.util.List;
  */
 public interface EventDao {
     List<Event> getAllEvent();
-    List<Event> getEventByStatus(int status);
+    List<Event> getEventByStatus(boolean status);
     Event getEvent(Long id);
     Event addEvent(Event event);
     Event updateEvent(Event event);
-    Event deleteEvent(int memberId);
+    Event deleteEvent(Event event);
     List<Event> getRandomThreeEvents();
     Event getEventByNearestDate();
 }

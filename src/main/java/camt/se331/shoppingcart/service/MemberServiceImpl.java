@@ -5,6 +5,8 @@ import camt.se331.shoppingcart.entity.Member;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.Calendar;
+import java.util.GregorianCalendar;
 import java.util.List;
 
 /**
@@ -33,7 +35,11 @@ public class MemberServiceImpl implements MemberService {
 
     @Override
     public Member addMember(Member member) {
-        return null;
+        Calendar cal = new GregorianCalendar();
+        member.setJoinDate(cal.getTime());
+        member.setStatus(true);
+        member.setRole("USER");
+        return memberDao.addMember(member);
     }
 
     @Override
@@ -42,8 +48,9 @@ public class MemberServiceImpl implements MemberService {
     }
 
     @Override
-    public Member deleteMember(int memberId) {
-        return null;
+    public Member deleteMember(long memberId) {
+        Member member = getMember(memberId);
+        return memberDao.deleteMember(member);
     }
 
     @Override

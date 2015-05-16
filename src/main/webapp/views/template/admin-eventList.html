@@ -19,9 +19,9 @@
         </tr>
         <tr ng-repeat="event in events | filter:searchEvent">
             <td class="col-md-1">{{$index+1}}</td>
-            <td class="col-md-1"><a ng-href="#/event/{{event.id}}" target="_blank">{{event.name}}</a></td>
+            <td class="col-md-2"><a ng-href="#/event/{{event.id}}" target="_blank">{{event.name}}</a></td>
             <td class="col-md-3">{{event.description | limitTo:200}}...</td>
-            <td class="col-md-2">{{event.formatDate}}</td>
+            <td class="col-md-1">{{event.formatDate}}</td>
             <td class="col-md-3"><img width="100%"  src="../{{event.imagePath}}"></td>
             <td class="col-md-1">{{event.status}}</td>
             <td class="col-md-1">

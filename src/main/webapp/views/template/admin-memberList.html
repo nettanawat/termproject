@@ -12,21 +12,23 @@
             <th>#</th>
             <th translate>listMember.firstname</th>
             <th translate>listMember.lastname</th>
+            <th translate>listMember.role</th>
             <th translate>listMember.email</th>
             <th translate>listMember.phonenumber</th>
             <th translate>listMember.status</th>
-            <th translate>listMember.status</th>
+            <th translate>listMember.action</th>
         </tr>
         <tr ng-repeat="member in members | filter:searchMember">
             <td>{{$index+1}}</td>
             <td><a ng-href="#/admin/viewmember/{{member.id}}">{{member.firstName}}</a></td>
             <td><a ng-href="#/admin/viewmember/{{member.id}}">{{member.lastName}}</a></td>
+            <td>{{member.role}}</td>
             <td>{{member.email}}</td>
             <td>{{member.phoneNumber}}</td>
             <td>{{member.status}}</td>
             <td>
                 <a ng-href="#/admin/editmember/{{member.id}}"> <span class="glyphicon glyphicon-edit" aria-hidden="true"></span></a>
-                <a ng-href="#/listProduct"><span class="glyphicon glyphicon-remove-circle" aria-hidden="true" ng-click="deleteMember(member.id)"></span></a>
+                <a ng-href="#/admin/listmember"><span class="glyphicon glyphicon-remove-circle" aria-hidden="true" ng-click="deleteMember(member.id)"></span></a>
             </td>
         </tr>
     </table>

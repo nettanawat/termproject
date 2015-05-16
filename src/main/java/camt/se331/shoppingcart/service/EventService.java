@@ -13,7 +13,7 @@ public interface EventService {
     Event getEvent(Long id);
     Event addEvent(Event event);
     Event updateEvent(Event event);
-    Event deleteEvent(int memberId);
+    Event deleteEvent(long id);
     List<Event> getRandomThreeEvents();
     Event getEventByNearestDate();
 }

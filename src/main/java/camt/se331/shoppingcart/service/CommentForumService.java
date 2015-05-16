@@ -9,5 +9,9 @@ import java.util.List;
  */
 public interface CommentForumService {
     List<CommentForum> getAllComment();
-    List<CommentForum> getCommentByStatus(int status);
+    List<CommentForum> getCommentByStatus(boolean status);
+    CommentForum getCommentById(long id);
+    CommentForum deleteComment(long id);
+    CommentForum addCommentForum(CommentForum commentForum);
+    CommentForum editCommentForum(CommentForum commentForum);
 }

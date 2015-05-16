@@ -1,6 +1,7 @@
 package camt.se331.shoppingcart.entity;
 
 import javax.persistence.*;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
@@ -17,12 +18,12 @@ public class CommentForum {
     private Member commentBy;
     @Temporal(TemporalType.TIMESTAMP)
     private Date date;
-    private int status;
+    private boolean status;
 
     public CommentForum() {
     }
 
-    public CommentForum(Long id,String detail, Member commentBy, Date date, int status) {
+    public CommentForum(Long id,String detail, Member commentBy, Date date, boolean status) {
         this.id = id;
         this.detail = detail;
         this.commentBy = commentBy;
@@ -62,12 +63,17 @@ public class CommentForum {
         this.date = date;
     }
 
-    public int getStatus() {
+    public boolean isStatus() {
         return status;
     }
 
-    public void setStatus(int status) {
+    public void setStatus(boolean status) {
         this.status = status;
+    }
+
+    public String getFormatDate(){
+        SimpleDateFormat dt1 = new SimpleDateFormat("EEE, MMM d yyyy 'at' HH:mm:ss");
+        return dt1.format(getDate());
     }
 
     @Override
@@ -92,7 +98,7 @@ public class CommentForum {
         result = 31 * result + (detail != null ? detail.hashCode() : 0);
         result = 31 * result + (commentBy != null ? commentBy.hashCode() : 0);
         result = 31 * result + (date != null ? date.hashCode() : 0);
-        result = 31 * result + status;
+        result = 31 * result + (status ? 1 : 0);
         return result;
     }
 }

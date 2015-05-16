@@ -2,26 +2,32 @@
 
 var memberMainController = angular.module('memberMainController', ['memberServices']);
 
+
 memberMainController.controller('addMemberController', ['$scope', '$http', '$location', '$rootScope','memberService',
     function ($scope, $http, $location, $rootScope,productService) {
         $scope.member = {};
         $scope.addMember = true;
         $scope.editMember = false;
-        $scope.addNewMember = function () {
 
-            //$http.post("/product", $scope.product).success(function () {
-            productService.save($scope.product,function(){
+        //for admin
+        $scope.addMember = function () {
+            $http.post("/member/addmember", $scope.member).success(function () {
                 $rootScope.addSuccess = true;
-                $location.path("listProduct");
-
+                $location.path("/admin/listmember");
             });
         };
 
-
+        //user
+        $scope.registerMember = function () {
+            $http.post("/member/addmember", $scope.member).success(function () {
+                $rootScope.addSuccess = true;
+                $location.path("/");
+            });
+        };
     }]);
 
-memberMainController.controller('listMemberController', ['$scope', '$http', '$rootScope','memberService','$route','totalCalService',
-    function ($scope, $http, $rootScope,memberService,$route,totalCalService) {
+memberMainController.controller('listMemberController', ['$scope', '$http', '$rootScope','memberService','$route','$routeParams',
+    function ($scope, $http, $rootScope,memberService,$route,$routeParams) {
         $http.get("/member/allmember").success(function (data) {
         //var data = memberService.query(function(){
             $scope.totalMember= data.length;
@@ -39,18 +45,21 @@ memberMainController.controller('listMemberController', ['$scope', '$http', '$ro
             $rootScope.deleteSuccess = false;
         });
 
-        $scope.deleteProduct = function (id) {
-            var answer = confirm("Do you want to delete the product?");
+
+        $scope.deleteMember = function (id) {
+            var answer = confirm("Are you sure to delete this member?");
             if (answer) {
-                productService.delete({id:id},function(){
+                $http.delete("/member/deletemember/" +id,"").then(function () {
                     $rootScope.deleteSuccess = true;
                     $route.reload();
-                })
+                });
             }
         }
 
     }]);
 
+
+//for admin
 memberMainController.controller('editMemberController', ['$scope', '$http', '$routeParams', '$location', '$rootScope','memberService',
     function ($scope, $http, $routeParams, $location, $rootScope,memberService) {
         $scope.addMember = false;

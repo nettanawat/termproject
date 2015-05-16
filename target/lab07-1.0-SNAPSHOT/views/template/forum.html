@@ -1,3 +1,8 @@
+<div class="alert alert-success alert-dismissible" role="alert" ng-show="deleteSuccess">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span></button>
+    <strong>Success!</strong> Success delete the comment
+</div>
 <div class="container-fluid">
     <div class="row" ng-controller="aForumController">
         <div style="height: 100px; background-color: rgb(50,58,68)" class="col-md-12">
@@ -33,7 +38,10 @@
                             <p>Tanawat Sitthitan</p>
                         </div>
                         <div class="col-md-10 marginTop10">
-                            <p style="font-size: 15px; right: 10px;">{{comment.detail}}</p>
+                            <p id="deletedComment" style="font-size: 15px; right: 10px;">{{comment.detail}}</p>
+                            <p style="font-size: 12px; right: 10px;">{{comment.formatDate}}</p>
+                            <a ng-href="" type="submit" class="btn btn-xs btn-danger" aria-hidden="true" ng-click="deleteComment(comment.id)">delete</a>
+                            <!--<a ng-href="#/admin/listmember"><span class="glyphicon glyphicon-remove-circle" aria-hidden="true" ng-click="deleteMember(member.id)"></span></a>-->
                         </div>
                     </div>
                 </div>

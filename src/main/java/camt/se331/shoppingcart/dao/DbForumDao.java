@@ -8,7 +8,6 @@ import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.*;
 /**
  * Created by nettanwat on 4/12/15 AD.
  */
@@ -45,8 +44,24 @@ public class DbForumDao implements ForumDao {
         for(int i=0; i<forumRepository.findAll().size();i++){
 
         }
-
         return null;
+    }
+
+    @Override
+    public Forum deleteForum(Forum forum) {
+        forumRepository.delete(forum);
+        forum.setId(null);
+        return forum;
+    }
+
+    @Override
+    public Forum addForum(Forum forum) {
+        return forumRepository.save(forum);
+    }
+
+    @Override
+    public Forum editForum(Forum forum) {
+        return forumRepository.save(forum);
     }
 
 }

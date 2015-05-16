@@ -42,7 +42,7 @@ public class EventServiceImpl implements EventService {
     }
 
     @Override
-    public Event deleteEvent(int memberId) {
+    public Event deleteEvent(long id) {
         return null;
     }
 

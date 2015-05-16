@@ -1,4 +1,4 @@
-<div class="container-fluid bg-filenotfound">
+<div class="container-fluid bg-filenotfound" ng-controller="addMemberController">
         <div class="row">
             <div class="col-md-3">
             </div>
@@ -9,22 +9,24 @@
                 <div class="col-md-12  bot-box-signup">
                     <p class="center join-us-free">Join Us Absolutely <span style="color: orange;">FREE.</span></p>
                     <p class="center join-us-happy">We're waiting for you to join us :)</p>
-                    <div class="col-md-6">
-                        <input type="text" class="signup-input" placeholder="FIRST NAME">
-                        <input type="text" class="signup-input" placeholder="EMAIL">
-                        <input type="text" class="signup-input" placeholder="RE-PASSWORD">
-                    </div>
-                    <div class="col-md-6">
-                        <input type="text" class="signup-input" placeholder="LAST NAME">
-                        <input type="text" class="signup-input" placeholder="PASSWORD">
-                        <input type="text" class="signup-input" placeholder="PHONE NUMBER">
-                    </div>
-                    <div class="col-md-12">
-                        <input class="signup-button" type="submit" name="submit" value="SIGN UP FREE">
-                    </div>
-                    <div class="col-md-12">
-                        <p style="margin-top: 20px" class="center join-us-happy">Thank you for join us</p>
-                    </div>
+                    <form name="memberForm">
+                        <div class="col-md-6">
+                                <input type="text" ng-model="member.firstName" class="signup-input" id="memberFirstName" name="memberFirstName" placeholder="FIRST NAME" required>
+                            <input type="text" ng-model="member.email" class="signup-input" id="memberEmail" name="memberEmail" placeholder="EMAIL" required>
+                            <input type="password" class="signup-input" id="memberConfirmPassword" name="memberConfirmPassword" placeholder="CONFIRM PASSWORD" required>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" ng-model="member.lastName" class="signup-input" id="memberLastName" name="memberLastName" placeholder="LAST NAME" required>
+                            <input type="password" ng-model="member.password" class="signup-input" id="memberPassword" name="memberPassword" placeholder="Member password" required>
+                            <input type="text" ng-model="member.phoneNumber" class="signup-input" id="memberPhoneNumber" name="memberPhoneNumber" placeholder="PHONE NUMBER" required>
+                        </div>
+                        <div class="col-md-12">
+                            <button type="submit" class="signup-button" name="submit" ng-click="registerMember()">SIGN UP FREE</button>
+                        </div>
+                        <div class="col-md-12">
+                            <p style="margin-top: 20px" class="center join-us-happy">Thank you for join us</p>
+                        </div>
+                    </form>
                 </div>
                 <div class="center col-md-12">
                     <p class="already-has">Already have an account? <span><a class="login-text-from-signup" href="#/login">Login!</a></span></p>

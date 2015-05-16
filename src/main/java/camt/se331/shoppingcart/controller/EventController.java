@@ -39,7 +39,18 @@ public class EventController {
     }
 
     @RequestMapping(value = "/editevent/{id}",method = RequestMethod.PUT)
-    public  Event edit(@PathVariable("id") Long id,@RequestBody Event event, BindingResult bindingResult){
+    public  Event editEvent(@PathVariable("id") Long id,@RequestBody Event event, BindingResult bindingResult){
         return eventService.updateEvent(event);
     }
+
+    @RequestMapping(value = "/addevent",method = RequestMethod.POST)
+    public @ResponseBody Event addEvent(@RequestBody Event event, BindingResult bindingResult){
+        return eventService.addEvent(event);
+    }
+
+    @RequestMapping(value = "/deleteevent/{id}",method = RequestMethod.DELETE)
+    public Event deleteEvent(@PathVariable("id") Long id){
+        return eventService.deleteEvent(id);
+    }
+
 }

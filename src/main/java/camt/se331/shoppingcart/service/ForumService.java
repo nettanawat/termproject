@@ -12,4 +12,7 @@ public interface ForumService {
     List<Forum> getForumByStatus(int status);
     Forum getForumById(Long id);
     List<Forum> getLastTwoForum();
+    Forum deleteForum(long id);
+    Forum addForum(Forum forum);
+    Forum editForum(Forum forum);
 }

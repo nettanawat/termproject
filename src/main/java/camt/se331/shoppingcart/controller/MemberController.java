@@ -34,10 +34,17 @@ public class MemberController {
     }
 
     @RequestMapping(value = "/editmember/{id}",method = RequestMethod.PUT)
-    public  Member edit(@PathVariable("id") Long id,@RequestBody Member member, BindingResult bindingResult){
+    public  Member editMember(@PathVariable("id") Long id,@RequestBody Member member, BindingResult bindingResult){
         return memberService.updateMember(member);
     }
 
+    @RequestMapping(value = "/deletemember/{id}",method = RequestMethod.DELETE)
+    public Member deleteMember(@PathVariable("id") Long id){
+        return memberService.deleteMember(id);
+    }
 
-
+    @RequestMapping(value = "/addmember",method = RequestMethod.POST)
+    public @ResponseBody Member addMember(@RequestBody Member member, BindingResult bindingResult){
+        return memberService.addMember(member);
+    }
 }

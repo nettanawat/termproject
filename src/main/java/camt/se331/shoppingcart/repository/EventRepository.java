@@ -13,4 +13,5 @@ public interface EventRepository extends JpaRepository<Event,Long> {
     List<Event> findAllByOrderByDateAsc();
     Event findTop1ByOrderByDateDesc();
     Event findTop1ByDateGreaterThanOrderByDateDesc(Date date);
+    List<Event> findByStatus(boolean status);
 }
